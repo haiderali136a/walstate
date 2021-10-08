@@ -1,0 +1,117 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<!--<h1 class="h3 mb-4 text-gray-800">This is Employee Home!</h1>-->
+{% if messages %}
+    {% for message in messages %}
+    <div class="text-center alert alert-{{ message.tags }}">
+        {{ message|safe }}
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+    {% endfor %}
+{% endif %}
+<a class="ml-5 btn btn-primary" href="{% url 'pack-purchase' %}">Buy Pack</a>
+
+<div class="container my-3" style="overflow: auto">
+    <h4 style="text-align: center;">History</h4>
+    <table class="table table-bordered dataTable" width="100%" cellspacing="0" role="grid"
+        aria-describedby="dataTable_info" style="width: 100%; text-align: center;">
+        <thead>
+            <tr role="row">
+                <th>ID</th>
+                <th>Title</th> 
+                <th>Quantity</th>
+                <th>Amount per Pack</th>
+                <th>Starts At</th>
+                <th>Ends At</th>
+                <th>Active</th>
+                <th>Refund</th>
+            </tr>
+        </thead>
+        <article class="media content-section">
+            <div class="media-body"></div>
+            <div class="article-metadata">
+                <tbody>
+                    {% for pac in data %}
+                    <tr>
+                        <td>{{ pac.id }}</td>
+                        <td><small class="text-muted">{{ pac.pack.name }}</small></td>
+                        <td><small class="text-muted">{{ pac.quantity }}</small></td>
+                        <td><small class="text-muted">{{ pac.pack.amount }}</small></td>
+                        <td><small class="text-muted">{{ pac.created_at }}</small></td>
+                        <td><small class="text-muted">{{ pac.ended_at }}</small></td>
+                        <td><small class="text-muted">{{ pac.status }}</small></td>
+                        <td>
+                            {% if pac.status != 'Refunded'  %}
+                            <small class="text-muted">
+                                {% for key, value in lst.0.items %}
+                                {% if key == pac.id %}
+
+                                {% if value == 0 %}
+                                <button id="refund_pack" class="bs-modal btn btn-block btn-primary update_pin"
+                                    type="button" name="button" data-form-url="#" disabled>
+                                    Refund
+                                </button>
+                                {% else %}
+                                <button id="refund_pack" class="bs-modal btn btn-block btn-primary refund_pack"
+                                    type="button" name="button" data-form-url="{% url 'pack-refund' pac.id %}">
+                                    Refund
+                                </button>
+                                {% endif %}
+                                {% endif %}
+                                {% endfor %}
+                               
+                            </small>
+                            {% else %}
+                            <button id="refund_pack" class="bs-modal btn btn-block btn-primary update_pin"
+                                    type="button" name="button" data-form-url="#" disabled>
+                                    Refund
+                                </button>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </div>
+</div>
+</article>
+</table>
+
+<div class="pagination">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+        <a href="?page=1" class="btn btn-danger">&laquo; first</a>
+        <a href="?page={{ page_obj.previous_page_number }}" class="btn btn-primary">previous</a>
+        {% endif %}
+
+        <span class="current btn btn-success">
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}" class="btn btn-primary">next</a>
+        <a href="?page={{ page_obj.paginator.num_pages }}" class="btn btn-danger">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+</div>
+{% endblock %}
+
+{% block model %}
+
+<div class="modal fade" tabindex="-1" role="dialog" id="modal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+      // Read book buttons
+      $(".refund_pack").each(function () {
+        $(this).modalForm({formURL: $(this).data("form-url")});
+    });
+    });
+  </script>
+
+
+{% endblock %}

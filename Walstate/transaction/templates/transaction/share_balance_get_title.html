@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %} {% load crispy_forms_tags %} {% block content %}
+<div class="col-lg-7 container">
+  <div class="p-10 my-3">
+    <div class="text-center">
+      <h1 class="h4 text-gray-900 mb-4">Share Balance</h1>
+    </div>
+    <form class="user" method="POST" novalidate>
+      {% csrf_token %} {{ form|crispy }}
+      <input type="text" name="username">
+      <hr />
+      <button type="submit" class="btn btn-primary btn-user btn-block">
+        <a href="{% url 'share-balance-create-view' %}">
+        Get Title
+        </a>
+      </button>
+      <a href="#" class="btn btn-danger btn-user btn-block"> Cancel </a>
+    </form>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'core/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-7 container">
+    <div class="p-10 my-3">
+      <div class="text-center">
+        <h1 class="h4 text-gray-900 mb-4">Upload Documents for Verification</h1>
+      </div>
+      {% if status == 'pending' %}
+      <div class="text-center alert alert-secondary">
+
+        <h4 class="text-secondary">Documents are pending approval!</h4></div>
+      {% elif status == 'not_verified' %}
+      <div class="text-center alert alert-danger">
+
+        <h4 class="text-danger">Documents are not verified!</h4></div>
+        {% elif status == 'verified' %}
+      <div class="text-center alert alert-success">
+        <h4 class="text-success">Documents have been verified! </h4></div>
+        {% endif %}
+      {% if status == 'pending' or status == 'verified' %}
+      {% else %}
+      <form class="user" method="POST" enctype="multipart/form-data" novalidate>
+        {% csrf_token %}
+          {{ form|crispy }}
+        <hr>
+        <button type="submit" class="btn btn-primary btn-user btn-block">
+          Update
+        </button>
+        <a href="#" class="btn btn-danger btn-user btn-block">
+          Cancel
+        </a>
+      </form>
+      {% endif %}
+    </div>
+</div>
+{% endblock %}

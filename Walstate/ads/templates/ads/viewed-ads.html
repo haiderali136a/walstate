@@ -1,0 +1,93 @@
+{% extends 'core/base.html' %}
+{% block content %}
+{% load static %}
+<head>
+    <script>
+
+    window.onload = function () {
+    var videos = document.getElementsByTagName("video");
+    for (video of videos){
+    console.log("Hello");
+        if (window.getComputedStyle(video).display === "none") {
+            document.getElementById('adblocker').style.display = 'block';
+            document.getElementById('noadblocker').style.display = 'none';
+            break;
+    }
+    }
+    /* $('.videoModals').each(function(){
+    $(this).on('show.bs.modal', function() {
+    console.log(this.id.split("videoModal")[1]);
+    video_id = '#' + this.id.split("videoModal")[1];
+    $(video_id)[0].play();
+    });
+    }); */
+
+    $('video').each(function(){
+    console.log(this);
+        $(this).on('ended', myHandler());
+    });
+};
+    var myHandler = function () {
+        return function (event) {
+        $('video').each(function(){
+        if (this.ended){
+        /* $('#videoModal'+this.id).modal('hide'); */
+         event.preventDefault();
+
+
+
+        }
+        });
+        };
+        };
+
+    </script>
+</head>
+{% csrf_token %}
+<div class="col-lg-7 container" id="adblocker" style="display:none;">
+    <div class="p-10 my-3">
+      <div class="text-center">
+        <div class="container my-3"  style="overflow: auto">
+            <h4 style="text-align: center;">Ads</h4></div>
+      </div>
+      <div class="text-center alert alert-danger">
+
+          <h4 class="text-danger">You must disable adblocker to view the content!</h4></div></div></div>
+<div class="container my-3"  style="overflow: auto" id="noadblocker">
+    <h4 style="text-align: center;">Ads</h4>
+    {% for vid in data %}
+<!--<button type="button" class="btn btn-md" data-toggle="modal" data-target="#videoModal{{ vid.ads.id }}"><img src="{{ vid.ads.thumbnail.url }}" width="640" height="400"></button>-->
+<!--<div data-toggle="modal" data-target="#videoModal{{ vid.id }}" data-backdrop="static">-->
+<!--    <div class="modal fade videoModals" id="videoModal{{ vid.ads.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+<!--    <div class="modal-dialog">-->
+<!--      <div class="modal-content">-->
+<!--        <div class="modal-body">-->
+          <video id="{{ vid.ads.id }}" width="100%" controls playsinline>
+            <source src="{{ vid.ads.video.url }}" type="video/mp4">
+          </video>
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+{% endfor %}
+
+
+    <div class="pagination">
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+            <a href="?page=1" class="btn btn-danger">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}" class="btn btn-primary">previous</a>
+            {% endif %}
+
+            <span class="current btn btn-success">
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}" class="btn btn-primary">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}" class="btn btn-danger">last &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+</div>
+{% endblock %}

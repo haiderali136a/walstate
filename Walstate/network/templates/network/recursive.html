@@ -1,0 +1,14 @@
+<ul>
+    <li>
+
+
+        <div class="Content">
+                {{ data.data }} [{{ data.data.personal_id }}] ( {{ data.count }} Referrals )
+        </div>
+
+        {% for item in data.children %}
+            {% include 'network/recursive.html' with data=item %}
+        {% endfor %}
+
+    </li>
+</ul>

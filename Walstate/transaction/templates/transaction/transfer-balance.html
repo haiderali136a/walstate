@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %} {% load crispy_forms_tags %} {% block content %}
+{% if messages %} {% for message in messages %}
+<div class="text-center alert alert-{{ message.tags }}">
+  {{ message|safe }}
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+</div>
+{% endfor %} {% endif %}
+<div class="col-lg-7 container">
+  <div class="p-10 my-3">
+    <div class="text-center">
+      <h1 class="h4 text-gray-900 mb-4">Transfer Balance</h1>
+    </div>
+    <form class="user" method="POST" novalidate>
+      {% csrf_token %} {{ form|crispy }}
+      <hr />
+      <button type="submit" class="btn btn-primary btn-user btn-block">
+        Transfer
+      </button>
+      <a href="#" class="btn btn-danger btn-user btn-block"> Cancel </a>
+    </form>
+  </div>
+</div>
+{% endblock %}

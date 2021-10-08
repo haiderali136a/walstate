@@ -1,0 +1,57 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<!--<h1 class="h3 mb-4 text-gray-800">This is Employee Home!</h1>-->
+
+<div class="container my-3"  style="overflow: scroll">
+    <h4 style="text-align: center;">History</h4>
+    <table class="table table-bordered dataTable" width="100%" cellspacing="0" role="grid"
+        aria-describedby="dataTable_info" style="width: 100%; text-align: center;">
+        <thead>
+            <tr role="row">
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Username</th>
+                <th>Membership</th>
+                <th>Registered on</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <article class="media content-section">
+            <div class="media-body"></div>
+                <div class="article-metadata">
+                    <tbody>
+                        {% for pac in data %}
+                        <tr>
+                            <td>{{ pac.id }}</td>
+                            <td><small class="text-muted">{{ pac.full_name }}</small></td>
+                            <td><small class="text-muted">{{ pac.username }}</small></td>
+                            <td><small class="text-muted">{{ pac.usermembership_set.name }}</small></td>
+                            <td><small class="text-muted">{{ pac.created_at }}</small></td>
+                            <td><small class="text-muted">{{ pac.gender }}</small></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </div>
+            </div>
+        </article>
+    </table>
+
+    <div class="pagination">
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+            <a href="?page=1" class="btn btn-danger">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}" class="btn btn-primary">previous</a>
+            {% endif %}
+
+            <span class="current btn btn-success">
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}" class="btn btn-primary">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}" class="btn btn-danger">last &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+</div>
+{% endblock %}

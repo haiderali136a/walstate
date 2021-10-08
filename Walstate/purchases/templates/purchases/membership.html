@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="col-lg-7 container">
+    <div class="p-10 my-3">
+        {% if status %}
+      <div class="text-center alert alert-secondary">
+
+        <h3 class="text-secondary">Membership Activated:</h3>
+        <h4 class="text-secondary">Title: {{ membership.membership.name }}</h4>
+        <h4 class="text-secondary">Amount: {{ membership.membership.amount }}</h4>
+        <h4 class="text-secondary">Since: {{ membership.created_at }}</h4></div>
+        {% else %}
+      <div class="text-center">
+        <h1 class="h4 text-gray-900 mb-4">Buy Membership</h1>
+      </div>
+      <form class="user" method="POST" novalidate>
+        {% csrf_token %}
+          {{ form|crispy }}
+        <hr>
+        <button type="submit" class="btn btn-primary btn-user btn-block">
+          Purchase
+        </button>
+        <a href="#" class="btn btn-danger btn-user btn-block">
+          Cancel
+        </a>
+      </form>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

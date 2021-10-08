@@ -1,0 +1,2276 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+core.Ads: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Badge: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Documents: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Income: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.MemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialDeposit: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialWithdraw: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Pack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Rank: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Role: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.ShareBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TeamEarning: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TotalAmounts: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransactionHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransferBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.User: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserAdsView: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserMemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPin: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 20 issues (0 silenced).
+April 15, 2021 - 20:39:52
+Django version 3.2, using settings 'WALSTATE.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[15/Apr/2021 20:39:55] "GET /network/tree/ HTTP/1.1" 200 15024
+[15/Apr/2021 20:39:55] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:39:56] "GET /network/tree/ HTTP/1.1" 200 15024
+[15/Apr/2021 20:40:06] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:40:06] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:40:27] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 20:40:28] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:40:28] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[15/Apr/2021 20:40:28] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[15/Apr/2021 20:40:28] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[15/Apr/2021 20:40:28] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[15/Apr/2021 20:40:29] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[15/Apr/2021 20:40:29] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+Not Found: /favicon.ico
+[15/Apr/2021 20:40:32] "GET /favicon.ico HTTP/1.1" 404 4294
+[15/Apr/2021 20:40:41] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 20:40:41] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:40:44] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 315300
+[15/Apr/2021 20:41:12] "POST /login/?next=/ HTTP/1.1" 302 0
+[15/Apr/2021 20:41:12] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:41:12] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[15/Apr/2021 20:41:13] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[15/Apr/2021 20:41:13] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[15/Apr/2021 20:41:13] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[15/Apr/2021 20:41:13] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 200 7139
+[15/Apr/2021 20:41:13] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+[15/Apr/2021 20:41:18] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:41:19] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 20:41:19] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[15/Apr/2021 20:41:22] "GET /favicon.ico HTTP/1.1" 404 4294
+[15/Apr/2021 20:41:26] "GET /logout/ HTTP/1.1" 302 0
+[15/Apr/2021 20:41:26] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:41:26] "GET /user/edit/5/ HTTP/1.1" 200 18786
+[15/Apr/2021 20:41:27] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:41:34] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 315300
+[15/Apr/2021 20:41:52] "GET /admin HTTP/1.1" 301 0
+[15/Apr/2021 20:41:52] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 20:41:53] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[15/Apr/2021 20:41:53] "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[15/Apr/2021 20:41:53] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[15/Apr/2021 20:41:53] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[15/Apr/2021 20:41:53] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[15/Apr/2021 20:41:53] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[15/Apr/2021 20:41:53] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[15/Apr/2021 20:41:54] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[15/Apr/2021 20:41:54] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[15/Apr/2021 20:41:54] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[15/Apr/2021 20:41:56] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 20:41:56] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 20:41:56] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[15/Apr/2021 20:41:59] "GET /verification/ HTTP/1.1" 200 14332
+[15/Apr/2021 20:41:59] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:42:10] "GET /network/direct/ HTTP/1.1" 200 16181
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+core.Ads: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Badge: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Documents: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Income: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.MemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialDeposit: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialWithdraw: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Pack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Rank: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Role: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.ShareBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TeamEarning: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TotalAmounts: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransactionHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransferBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.User: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserAdsView: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserMemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPin: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 20 issues (0 silenced).
+April 15, 2021 - 20:42:25
+Django version 3.2, using settings 'WALSTATE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[15/Apr/2021 20:42:34] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 20:42:34] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:42:34] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[15/Apr/2021 20:42:35] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[15/Apr/2021 20:42:35] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[15/Apr/2021 20:42:35] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[15/Apr/2021 20:42:35] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[15/Apr/2021 20:42:35] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+Not Found: /favicon.ico
+[15/Apr/2021 20:42:36] "GET /favicon.ico HTTP/1.1" 404 4299
+[15/Apr/2021 20:42:36] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 315300
+[15/Apr/2021 20:42:37] "GET /media/walstate-login-page.jpg HTTP/1.1" 200 37872
+[15/Apr/2021 20:42:50] "POST /login/?next=/ HTTP/1.1" 302 0
+[15/Apr/2021 20:42:50] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:42:50] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[15/Apr/2021 20:42:51] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[15/Apr/2021 20:42:51] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[15/Apr/2021 20:42:51] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[15/Apr/2021 20:42:51] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 200 7139
+[15/Apr/2021 20:42:51] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+[15/Apr/2021 20:43:03] "GET /network/tree/ HTTP/1.1" 200 15024
+[15/Apr/2021 20:43:47] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:43:47] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[15/Apr/2021 20:43:48] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[15/Apr/2021 20:43:48] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[15/Apr/2021 20:43:48] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[15/Apr/2021 20:43:48] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 200 7139
+[15/Apr/2021 20:43:48] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[15/Apr/2021 20:43:48] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[15/Apr/2021 20:43:48] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+Not Found: /favicon.ico
+[15/Apr/2021 20:43:49] "GET /favicon.ico HTTP/1.1" 404 4299
+[15/Apr/2021 20:43:53] "GET /logout/ HTTP/1.1" 302 0
+[15/Apr/2021 20:43:54] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:43:54] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[15/Apr/2021 20:43:54] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[15/Apr/2021 20:43:54] "GET /media/walstate-login-page.jpg HTTP/1.1" 200 37872
+[15/Apr/2021 20:43:54] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[15/Apr/2021 20:43:54] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[15/Apr/2021 20:44:14] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2021 20:44:14] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:44:26] "GET /network/tree/ HTTP/1.1" 200 15024
+[15/Apr/2021 20:44:26] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:44:40] "GET /settings/password/reset/5/ HTTP/1.1" 200 15139
+Not Found: /settings/media/walstate-png-logo.png
+[15/Apr/2021 20:44:40] "GET /settings/media/walstate-png-logo.png HTTP/1.1" 404 4878
+[15/Apr/2021 20:44:42] "GET /settings/pin/update/5/ HTTP/1.1" 200 15169
+Not Found: /settings/media/walstate-png-logo.png
+[15/Apr/2021 20:44:42] "GET /settings/media/walstate-png-logo.png HTTP/1.1" 404 4878
+[15/Apr/2021 20:44:49] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:44:52] "GET /settings/pin/update/5/ HTTP/1.1" 200 15169
+Not Found: /settings/media/walstate-png-logo.png
+[15/Apr/2021 20:44:52] "GET /settings/media/walstate-png-logo.png HTTP/1.1" 404 4878
+[15/Apr/2021 20:44:55] "GET /network/direct/ HTTP/1.1" 200 16181
+[15/Apr/2021 20:44:58] "GET /transaction/ HTTP/1.1" 200 20207
+[15/Apr/2021 20:44:58] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:45:07] "GET /exchanger/5/ HTTP/1.1" 200 14814
+[15/Apr/2021 20:45:16] "GET /logout/ HTTP/1.1" 302 0
+[15/Apr/2021 20:45:16] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:45:26] "POST /login/ HTTP/1.1" 200 5840
+[15/Apr/2021 20:45:35] "POST /login/ HTTP/1.1" 200 5834
+[15/Apr/2021 20:45:38] "GET /password/reset/ HTTP/1.1" 200 4104
+[15/Apr/2021 20:45:44] "POST /password/reset/ HTTP/1.1" 302 0
+[15/Apr/2021 20:45:44] "GET /password/reset/email/sent HTTP/1.1" 200 2561
+[15/Apr/2021 20:46:31] "GET /password/reset/ HTTP/1.1" 200 4104
+[15/Apr/2021 20:46:34] "GET /signup/ HTTP/1.1" 200 8189
+[15/Apr/2021 20:46:34] "GET /media/walstate-create-acc.jpg HTTP/1.1" 200 46238
+[15/Apr/2021 20:46:50] "GET /transaction/deposit/ HTTP/1.1" 200 15665
+[15/Apr/2021 20:46:51] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:47:01] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 20:47:02] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:47:28] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 20:47:28] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:47:29] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[15/Apr/2021 20:47:29] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[15/Apr/2021 20:47:29] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[15/Apr/2021 20:47:29] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[15/Apr/2021 20:47:29] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[15/Apr/2021 20:47:29] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[15/Apr/2021 20:47:30] "GET /media/walstate-login-page.jpg HTTP/1.1" 200 37872
+Not Found: /favicon.ico
+[15/Apr/2021 20:47:30] "GET /favicon.ico HTTP/1.1" 404 4299
+[15/Apr/2021 20:47:42] "GET /signup/ HTTP/1.1" 200 8189
+[15/Apr/2021 20:47:45] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:48:03] "POST /login/?next=/ HTTP/1.1" 302 0
+[15/Apr/2021 20:48:03] "POST /login/?next=/ HTTP/1.1" 302 0
+[15/Apr/2021 20:48:03] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:48:03] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:48:04] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:48:04] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[15/Apr/2021 20:48:04] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[15/Apr/2021 20:48:04] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 200 7139
+[15/Apr/2021 20:48:04] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[15/Apr/2021 20:48:04] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[15/Apr/2021 20:48:04] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+[15/Apr/2021 20:48:14] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:48:17] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 20:48:18] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:48:18] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 20:48:18] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:48:19] "GET /login/?next=%2F HTTP/1.1" 200 5457
+[15/Apr/2021 20:48:19] "GET /login/?next=%2F HTTP/1.1" 200 5457
+[15/Apr/2021 20:48:30] "GET /settings/pin/update/5/ HTTP/1.1" 200 15169
+Not Found: /settings/media/walstate-png-logo.png
+[15/Apr/2021 20:48:30] "GET /settings/media/walstate-png-logo.png HTTP/1.1" 404 4878
+[15/Apr/2021 20:48:34] "GET /user/edit/5/ HTTP/1.1" 200 18786
+[15/Apr/2021 20:48:39] "GET /user/edit/5/ HTTP/1.1" 200 18786
+[15/Apr/2021 20:48:51] "GET /purchase/membership/create/ HTTP/1.1" 200 14370
+[15/Apr/2021 20:48:54] "GET /transaction/deposit/ HTTP/1.1" 200 15665
+[15/Apr/2021 20:49:00] "GET /transaction/deposit/ HTTP/1.1" 200 15665
+[15/Apr/2021 20:49:00] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:49:13] "GET /ads/view/ HTTP/1.1" 200 17324
+[15/Apr/2021 20:49:14] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:49:22] "GET /network/direct/ HTTP/1.1" 200 16181
+[15/Apr/2021 20:49:23] "GET /network/tree/ HTTP/1.1" 200 15024
+[15/Apr/2021 20:49:49] "GET /settings/password/reset/5/ HTTP/1.1" 200 15139
+Not Found: /settings/media/walstate-png-logo.png
+[15/Apr/2021 20:49:49] "GET /settings/media/walstate-png-logo.png HTTP/1.1" 404 4878
+[15/Apr/2021 20:49:50] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:49:53] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:49:56] "GET /purchase/membership/create/ HTTP/1.1" 200 14370
+[15/Apr/2021 20:50:06] "GET /logout/ HTTP/1.1" 302 0
+[15/Apr/2021 20:50:06] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:50:07] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15366
+[15/Apr/2021 20:50:22] "POST /login/ HTTP/1.1" 200 5832
+[15/Apr/2021 20:50:26] "POST /login/ HTTP/1.1" 200 5832
+[15/Apr/2021 20:50:45] "POST /login/ HTTP/1.1" 200 5832
+[15/Apr/2021 20:50:53] "GET /transaction/share/balance/ HTTP/1.1" 200 15510
+[15/Apr/2021 20:50:54] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:50:54] "POST /login/ HTTP/1.1" 200 5832
+[15/Apr/2021 20:50:57] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15166
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 20:50:58] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6353
+[15/Apr/2021 20:51:05] "GET /transaction/withdraw/ HTTP/1.1" 200 15320
+[15/Apr/2021 20:51:08] "GET /transaction/withdraw/history/ HTTP/1.1" 200 18139
+[15/Apr/2021 20:51:09] "GET /admin HTTP/1.1" 301 0
+[15/Apr/2021 20:51:10] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 20:51:10] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[15/Apr/2021 20:51:10] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[15/Apr/2021 20:51:10] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[15/Apr/2021 20:51:10] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[15/Apr/2021 20:51:10] "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[15/Apr/2021 20:51:10] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[15/Apr/2021 20:51:11] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[15/Apr/2021 20:51:11] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[15/Apr/2021 20:51:11] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[15/Apr/2021 20:51:19] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[15/Apr/2021 20:51:19] "GET /admin/ HTTP/1.1" 200 14717
+[15/Apr/2021 20:51:19] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[15/Apr/2021 20:51:19] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[15/Apr/2021 20:51:19] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[15/Apr/2021 20:51:20] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[15/Apr/2021 20:51:20] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[15/Apr/2021 20:51:22] "GET /transaction/deposit/history/ HTTP/1.1" 200 15709
+[15/Apr/2021 20:51:22] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 20:51:22] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:51:26] "GET /admin/core/user/ HTTP/1.1" 200 15556
+[15/Apr/2021 20:51:26] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[15/Apr/2021 20:51:26] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[15/Apr/2021 20:51:26] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[15/Apr/2021 20:51:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 20:51:26] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[15/Apr/2021 20:51:26] "GET /static/admin/js/actions.js HTTP/1.1" 200 6540
+[15/Apr/2021 20:51:26] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[15/Apr/2021 20:51:26] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[15/Apr/2021 20:51:26] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[15/Apr/2021 20:51:26] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[15/Apr/2021 20:51:27] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[15/Apr/2021 20:51:27] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[15/Apr/2021 20:51:29] "GET /user/edit/5/ HTTP/1.1" 200 18786
+[15/Apr/2021 20:51:34] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:51:45] "GET /admin/core/user/add/ HTTP/1.1" 200 21059
+[15/Apr/2021 20:51:45] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[15/Apr/2021 20:51:45] "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[15/Apr/2021 20:51:45] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[15/Apr/2021 20:51:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 20:51:45] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[15/Apr/2021 20:51:45] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[15/Apr/2021 20:51:46] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[15/Apr/2021 20:51:46] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[15/Apr/2021 20:52:01] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+[15/Apr/2021 20:52:28] "GET /user/edit/5/ HTTP/1.1" 200 18786
+[15/Apr/2021 20:52:28] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 20:52:28] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:52:35] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:52:46] "POST /admin/core/user/add/ HTTP/1.1" 200 21485
+[15/Apr/2021 20:52:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 20:53:05] "GET /settings/pin/update/5/ HTTP/1.1" 200 15169
+Not Found: /settings/media/walstate-png-logo.png
+[15/Apr/2021 20:53:05] "GET /settings/media/walstate-png-logo.png HTTP/1.1" 404 4878
+[15/Apr/2021 20:53:15] "GET /signup/ HTTP/1.1" 200 8189
+[15/Apr/2021 20:53:16] "GET /media/walstate-create-acc.jpg HTTP/1.1" 200 46238
+[15/Apr/2021 20:53:17] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:53:17] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+Forbidden (CSRF token missing or incorrect.): /login/
+[15/Apr/2021 20:53:31] "POST /login/ HTTP/1.1" 403 2519
+Forbidden (CSRF token missing or incorrect.): /login/
+[15/Apr/2021 20:53:34] "POST /login/ HTTP/1.1" 403 2519
+[15/Apr/2021 20:53:37] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:53:37] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 20:53:38] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 20:53:38] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 20:53:38] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 20:53:39] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:53:42] "GET /exchanger/5/ HTTP/1.1" 200 14814
+[15/Apr/2021 20:53:43] "POST /admin/core/user/add/ HTTP/1.1" 200 21485
+[15/Apr/2021 20:53:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 20:53:47] "GET / HTTP/1.1" 200 14736
+[15/Apr/2021 20:53:48] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:53:51] "GET /pins/create/ HTTP/1.1" 200 15904
+[15/Apr/2021 20:53:52] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:54:19] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:54:20] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[15/Apr/2021 20:54:21] "GET /purchase/membership/create/ HTTP/1.1" 200 15222
+[15/Apr/2021 20:54:24] "GET /purchase/membership/create/ HTTP/1.1" 200 14370
+[15/Apr/2021 20:55:30] "GET /logout/ HTTP/1.1" 302 0
+[15/Apr/2021 20:55:31] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:55:33] "GET /signup/ HTTP/1.1" 200 8189
+69095981
+1
+[15/Apr/2021 20:56:10] "POST /signup/ HTTP/1.1" 302 0
+[15/Apr/2021 20:56:11] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 20:56:11] "GET /media/walstate-login-page.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:56:21] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:56:22] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:56:27] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2021 20:56:28] "GET / HTTP/1.1" 200 14715
+[15/Apr/2021 20:56:28] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 20:57:38] "GET /admin HTTP/1.1" 301 0
+[15/Apr/2021 20:57:38] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 20:57:38] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[15/Apr/2021 20:57:38] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[15/Apr/2021 20:57:39] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[15/Apr/2021 20:57:39] "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[15/Apr/2021 20:57:39] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[15/Apr/2021 20:57:39] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[15/Apr/2021 20:57:39] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[15/Apr/2021 20:57:39] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[15/Apr/2021 20:57:39] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[15/Apr/2021 20:57:40] "GET /favicon.ico HTTP/1.1" 404 4299
+[15/Apr/2021 20:57:49] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[15/Apr/2021 20:57:49] "GET /admin/ HTTP/1.1" 200 14717
+[15/Apr/2021 20:57:49] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[15/Apr/2021 20:57:49] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[15/Apr/2021 20:57:49] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[15/Apr/2021 20:57:49] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[15/Apr/2021 20:57:49] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[15/Apr/2021 20:57:55] "GET /admin/core/user/ HTTP/1.1" 200 15865
+[15/Apr/2021 20:57:55] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[15/Apr/2021 20:57:55] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[15/Apr/2021 20:57:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 20:57:55] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[15/Apr/2021 20:57:55] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[15/Apr/2021 20:57:56] "GET /static/admin/js/actions.js HTTP/1.1" 200 6540
+[15/Apr/2021 20:57:56] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[15/Apr/2021 20:57:56] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[15/Apr/2021 20:57:56] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[15/Apr/2021 20:57:56] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[15/Apr/2021 20:57:56] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[15/Apr/2021 20:57:56] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[15/Apr/2021 20:58:03] "GET /admin/core/user/17/change/ HTTP/1.1" 200 22441
+[15/Apr/2021 20:58:03] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[15/Apr/2021 20:58:03] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[15/Apr/2021 20:58:03] "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[15/Apr/2021 20:58:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 20:58:03] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[15/Apr/2021 20:58:03] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[15/Apr/2021 20:58:04] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[15/Apr/2021 20:58:04] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[15/Apr/2021 20:58:04] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[15/Apr/2021 20:58:43] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15366
+[15/Apr/2021 20:58:45] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 20:58:49] "GET /transaction/share/balance/ HTTP/1.1" 200 15510
+[15/Apr/2021 20:58:51] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15166
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 20:58:51] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6353
+[15/Apr/2021 20:58:54] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 20:59:05] "GET /transaction/share/balance/ HTTP/1.1" 200 15510
+[15/Apr/2021 20:59:06] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15166
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 20:59:07] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6353
+[15/Apr/2021 20:59:14] "POST /transaction/share/balance/create/ HTTP/1.1" 302 0
+[15/Apr/2021 20:59:15] "GET /transaction/share/balance/ HTTP/1.1" 200 15887
+[15/Apr/2021 20:59:21] "GET / HTTP/1.1" 200 14717
+[15/Apr/2021 20:59:21] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 20:59:21] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 20:59:21] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 20:59:22] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 20:59:22] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 20:59:31] "GET /pins/create/ HTTP/1.1" 200 15890
+[15/Apr/2021 20:59:36] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 20:59:36] "GET /pins/history/ HTTP/1.1" 200 17174
+[15/Apr/2021 20:59:59] "GET / HTTP/1.1" 200 14718
+[15/Apr/2021 21:00:23] "GET /pins/create/ HTTP/1.1" 200 15890
+[15/Apr/2021 21:00:24] "GET /pins/history/ HTTP/1.1" 200 17174
+[15/Apr/2021 21:00:28] "GET /pins/refund/12/ HTTP/1.1" 200 1044
+[15/Apr/2021 21:00:43] "GET /purchase/membership/create/ HTTP/1.1" 200 15229
+[15/Apr/2021 21:00:47] "POST /purchase/membership/create/ HTTP/1.1" 200 15367
+[15/Apr/2021 21:01:00] "POST /purchase/membership/create/ HTTP/1.1" 200 15367
+[15/Apr/2021 21:01:03] "GET /purchase/membership/create/ HTTP/1.1" 200 15229
+[15/Apr/2021 21:01:05] "GET /purchase/pack/ HTTP/1.1" 200 15211
+[15/Apr/2021 21:01:06] "GET /purchase/membership/create/ HTTP/1.1" 200 15229
+[15/Apr/2021 21:01:16] "POST /purchase/membership/create/ HTTP/1.1" 200 15366
+[15/Apr/2021 21:01:20] "POST /purchase/membership/create/ HTTP/1.1" 200 15366
+[15/Apr/2021 21:01:23] "GET /pins/create/ HTTP/1.1" 200 15890
+[15/Apr/2021 21:01:25] "GET /pins/history/ HTTP/1.1" 200 17174
+[15/Apr/2021 21:01:28] "GET /purchase/membership/create/ HTTP/1.1" 200 15229
+[15/Apr/2021 21:01:33] "GET /pins/create/ HTTP/1.1" 200 15890
+[15/Apr/2021 21:01:34] "GET /pins/history/ HTTP/1.1" 200 17174
+[15/Apr/2021 21:01:41] "GET /purchase/membership/create/ HTTP/1.1" 200 15229
+[15/Apr/2021 21:01:47] "POST /purchase/membership/create/ HTTP/1.1" 200 15366
+[15/Apr/2021 21:02:11] "GET / HTTP/1.1" 200 14718
+[15/Apr/2021 21:02:16] "GET /exchanger/17/ HTTP/1.1" 200 14800
+[15/Apr/2021 21:02:19] "GET / HTTP/1.1" 200 14718
+[15/Apr/2021 21:02:31] "GET /pins/create/ HTTP/1.1" 200 15890
+[15/Apr/2021 21:02:32] "GET /pins/history/ HTTP/1.1" 200 17174
+[15/Apr/2021 21:03:10] "GET /transaction/ HTTP/1.1" 200 15819
+[15/Apr/2021 21:03:10] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[15/Apr/2021 21:03:15] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15352
+[15/Apr/2021 21:03:26] "POST /transaction/transfer/balance/ HTTP/1.1" 200 15483
+[15/Apr/2021 21:03:33] "GET /transaction/ HTTP/1.1" 200 15819
+[15/Apr/2021 21:03:39] "GET /transaction/share/balance/ HTTP/1.1" 200 15119
+[15/Apr/2021 21:03:41] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15152
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 21:03:41] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6353
+[15/Apr/2021 21:03:53] "GET /user/edit/5/ HTTP/1.1" 200 18786
+[15/Apr/2021 21:03:54] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:03:55] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 21:03:55] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 21:04:05] "POST /transaction/share/balance/create/ HTTP/1.1" 200 15313
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 21:04:05] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6353
+[15/Apr/2021 21:04:08] "POST /transaction/share/balance/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:04:09] "GET /transaction/share/balance/ HTTP/1.1" 200 15502
+[15/Apr/2021 21:04:22] "GET / HTTP/1.1" 200 14753
+[15/Apr/2021 21:04:22] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:04:22] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:04:22] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:04:22] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 21:04:37] "GET /network/direct/ HTTP/1.1" 200 15108
+[15/Apr/2021 21:04:40] "GET /network/tree/ HTTP/1.1" 200 14197
+[15/Apr/2021 21:04:58] "GET /purchase/membership/create/ HTTP/1.1" 200 14370
+[15/Apr/2021 21:05:02] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 21:05:03] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[15/Apr/2021 21:05:03] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[15/Apr/2021 21:05:03] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[15/Apr/2021 21:05:32] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 21:05:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[15/Apr/2021 21:05:32] "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[15/Apr/2021 21:05:32] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[15/Apr/2021 21:05:33] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[15/Apr/2021 21:05:33] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[15/Apr/2021 21:05:33] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[15/Apr/2021 21:05:34] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[15/Apr/2021 21:05:34] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[15/Apr/2021 21:05:46] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[15/Apr/2021 21:05:46] "GET /admin/ HTTP/1.1" 200 14717
+[15/Apr/2021 21:05:50] "GET /admin/core/membership/ HTTP/1.1" 200 11621
+[15/Apr/2021 21:05:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:05:54] "GET /admin/core/membership/2/change/ HTTP/1.1" 200 12371
+[15/Apr/2021 21:05:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:06:00] "POST /admin/core/membership/2/change/ HTTP/1.1" 302 0
+[15/Apr/2021 21:06:01] "GET /admin/core/membership/ HTTP/1.1" 200 11827
+[15/Apr/2021 21:06:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:06:01] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[15/Apr/2021 21:06:25] "GET /purchase/membership/create/ HTTP/1.1" 200 15229
+[15/Apr/2021 21:06:25] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 21:06:31] "GET /pins/create/ HTTP/1.1" 200 15890
+[15/Apr/2021 21:06:35] "GET /pins/history/ HTTP/1.1" 200 17174
+[15/Apr/2021 21:06:40] "GET /purchase/membership/create/ HTTP/1.1" 200 15229
+[15/Apr/2021 21:06:44] "POST /purchase/membership/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:06:44] "GET /purchase/membership/create/ HTTP/1.1" 200 14355
+/home/Walstate/WALSTATE/WALSTATE/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.8/dist-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.8/dist-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/dist-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/dist-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Walstate/WALSTATE/WALSTATE/urls.py", line 22, in <module>
+    from user.views import SignUpView, EditProfileView, DocumentUploadView, BecomeExchangerView, ShowReferralView
+ImportError: cannot import name 'ShowReferralView' from 'user.views' (/home/Walstate/WALSTATE/user/views.py)
+/home/Walstate/WALSTATE/user/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/management/base.py", line 419, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.8/dist-packages/django/core/checks/registry.py", line 76, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.8/dist-packages/django/urls/resolvers.py", line 412, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/dist-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/dist-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/Walstate/WALSTATE/WALSTATE/urls.py", line 22, in <module>
+    from user.views import SignUpView, EditProfileView, DocumentUploadView, BecomeExchangerView, ShowReferralView
+ImportError: cannot import name 'ShowReferralView' from 'user.views' (/home/Walstate/WALSTATE/user/views.py)
+/home/Walstate/WALSTATE/user/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+core.Ads: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Badge: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Documents: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Income: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.MemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialDeposit: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialWithdraw: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Pack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Rank: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Role: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.ShareBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TeamEarning: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TotalAmounts: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransactionHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransferBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.User: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserAdsView: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserMemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPin: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 20 issues (0 silenced).
+April 15, 2021 - 21:07:54
+Django version 3.2, using settings 'WALSTATE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[15/Apr/2021 21:08:10] "GET / HTTP/1.1" 200 14746
+[15/Apr/2021 21:08:11] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[15/Apr/2021 21:08:15] "GET /logout/ HTTP/1.1" 302 0
+[15/Apr/2021 21:08:15] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 21:08:15] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:08:16] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:08:16] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:08:16] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:08:16] "GET /media/walstate-login-page.jpg HTTP/1.1" 304 0
+[15/Apr/2021 21:08:18] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 21:08:18] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 21:08:20] "GET /login/ HTTP/1.1" 200 5457
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+core.Ads: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Badge: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Documents: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Income: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.MemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialDeposit: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialWithdraw: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Pack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Rank: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Role: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.ShareBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TeamEarning: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TotalAmounts: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransactionHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransferBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.User: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserAdsView: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserMemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPin: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 20 issues (0 silenced).
+April 15, 2021 - 21:08:28
+Django version 3.2, using settings 'WALSTATE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[15/Apr/2021 21:08:32] "GET / HTTP/1.1" 200 14764
+[15/Apr/2021 21:08:33] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:08:33] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:08:33] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:08:33] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:08:33] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 21:08:34] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 21:08:34] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 21:08:37] "GET /referral/5/ HTTP/1.1" 200 14762
+[15/Apr/2021 21:08:41] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2021 21:08:41] "GET / HTTP/1.1" 200 14764
+[15/Apr/2021 21:08:42] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 21:08:48] "GET /network/tree/ HTTP/1.1" 200 15197
+[15/Apr/2021 21:08:52] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 21:08:52] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 21:08:53] "GET /referral/5/ HTTP/1.1" 200 14762
+[15/Apr/2021 21:08:53] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[15/Apr/2021 21:08:53] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[15/Apr/2021 21:08:53] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[15/Apr/2021 21:08:53] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[15/Apr/2021 21:08:53] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[15/Apr/2021 21:08:55] "GET /purchase/membership/create/ HTTP/1.1" 200 14367
+[15/Apr/2021 21:09:02] "GET /referral/17/ HTTP/1.1" 200 14750
+[15/Apr/2021 21:09:12] "GET /transaction/deposit/ HTTP/1.1" 200 15663
+[15/Apr/2021 21:09:18] "GET /transaction/withdraw/ HTTP/1.1" 200 14195
+[15/Apr/2021 21:09:27] "GET /user/edit/17/ HTTP/1.1" 200 18325
+[15/Apr/2021 21:09:38] "GET /verification/ HTTP/1.1" 200 15350
+[15/Apr/2021 21:09:46] "POST /verification/ HTTP/1.1" 302 0
+[15/Apr/2021 21:09:47] "GET /verification/ HTTP/1.1" 200 14334
+[15/Apr/2021 21:09:54] "GET /admin/core/documents/ HTTP/1.1" 200 12504
+[15/Apr/2021 21:09:54] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[15/Apr/2021 21:09:54] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[15/Apr/2021 21:09:54] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[15/Apr/2021 21:09:54] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[15/Apr/2021 21:09:54] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:09:55] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[15/Apr/2021 21:09:55] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[15/Apr/2021 21:09:58] "GET /admin/core/documents/9/change/ HTTP/1.1" 200 14806
+[15/Apr/2021 21:09:58] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[15/Apr/2021 21:09:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:09:59] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[15/Apr/2021 21:09:59] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[15/Apr/2021 21:09:59] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[15/Apr/2021 21:09:59] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[15/Apr/2021 21:10:01] "GET /media/uploads/document/4afb9c11-dd0b-4372-846d-c6bc1f0c01ac.jpg HTTP/1.1" 200 44404
+[15/Apr/2021 21:10:04] "GET /admin/core/documents/9/change/ HTTP/1.1" 200 14806
+[15/Apr/2021 21:10:10] "POST /admin/core/documents/9/change/ HTTP/1.1" 302 0
+[15/Apr/2021 21:10:10] "GET /admin/core/documents/ HTTP/1.1" 200 12722
+[15/Apr/2021 21:10:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:10:10] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[15/Apr/2021 21:10:20] "GET /verification/ HTTP/1.1" 200 14330
+[15/Apr/2021 21:10:20] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:10:30] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 21:10:30] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 21:10:31] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[15/Apr/2021 21:10:31] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[15/Apr/2021 21:10:31] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[15/Apr/2021 21:10:31] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[15/Apr/2021 21:10:41,738] - Broken pipe from ('59.103.97.95', 62702)
+
+[15/Apr/2021 21:10:41,740] - Broken pipe from ('59.103.97.95', 62679)
+
+[15/Apr/2021 21:10:41,741] - Broken pipe from ('59.103.97.95', 62678)
+
+[15/Apr/2021 21:10:41,741] - Broken pipe from ('59.103.97.95', 62703)
+
+[15/Apr/2021 21:10:48] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 21:10:49] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 21:10:56] "GET /transaction/withdraw/ HTTP/1.1" 200 15318
+[15/Apr/2021 21:10:56] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:10:56] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:10:56] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:10:56] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 21:11:00] "POST /login/?next=/ HTTP/1.1" 302 0
+[15/Apr/2021 21:11:01] "GET / HTTP/1.1" 200 14764
+[15/Apr/2021 21:11:01] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[15/Apr/2021 21:11:01] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[15/Apr/2021 21:11:01] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 200 7139
+[15/Apr/2021 21:11:01] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[15/Apr/2021 21:11:01] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[15/Apr/2021 21:11:02] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+[15/Apr/2021 21:11:27] "GET /transaction/share/balance/ HTTP/1.1" 200 15514
+[15/Apr/2021 21:11:38] "GET /purchase/pack/ HTTP/1.1" 200 15223
+[15/Apr/2021 21:11:39] "GET /purchase/pack/create/ HTTP/1.1" 200 15600
+[15/Apr/2021 21:11:45] "GET / HTTP/1.1" 200 14728
+[15/Apr/2021 21:11:46] "GET /transaction/deposit/ HTTP/1.1" 200 15676
+[15/Apr/2021 21:12:06] "GET /transaction/withdraw/ HTTP/1.1" 200 15331
+[15/Apr/2021 21:12:09] "GET /transaction/withdraw/history/ HTTP/1.1" 200 18150
+[15/Apr/2021 21:12:12] "GET /pins/create/ HTTP/1.1" 200 15902
+[15/Apr/2021 21:12:27] "GET /network/tree/ HTTP/1.1" 200 15197
+[15/Apr/2021 21:12:28] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 21:12:31] "GET /user/edit/5/ HTTP/1.1" 200 18797
+[15/Apr/2021 21:12:41] "GET / HTTP/1.1" 200 14764
+[15/Apr/2021 21:12:45] "GET / HTTP/1.1" 200 14764
+[15/Apr/2021 21:12:45] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:12:45] "GET /pins/history/ HTTP/1.1" 200 18086
+[15/Apr/2021 21:12:58] "GET /purchase/pack/ HTTP/1.1" 200 15223
+[15/Apr/2021 21:13:00] "GET /purchase/pack/create/ HTTP/1.1" 200 15600
+[15/Apr/2021 21:13:05,054] - Broken pipe from ('59.103.97.95', 62992)
+
+[15/Apr/2021 21:13:06] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:13:06] "GET /purchase/pack/ HTTP/1.1" 200 15844
+[15/Apr/2021 21:13:10] "GET / HTTP/1.1" 200 14742
+[15/Apr/2021 21:13:36] "GET /pins/create/ HTTP/1.1" 200 15902
+[15/Apr/2021 21:13:40] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:13:40] "GET /pins/history/ HTTP/1.1" 200 18986
+[15/Apr/2021 21:13:42] "GET /pins/refund/14/ HTTP/1.1" 200 1044
+[15/Apr/2021 21:13:48] "GET /pins/refund/14/ HTTP/1.1" 200 1044
+14
+not used
+11 not used
+9.75 0.25
+[15/Apr/2021 21:14:01] "POST /pins/refund/14/ HTTP/1.1" 302 0
+[15/Apr/2021 21:14:01] "GET /pins/history/ HTTP/1.1" 200 19179
+14
+not used
+11 not used
+9.75 0.25
+[15/Apr/2021 21:14:02] "POST /pins/refund/14/ HTTP/1.1" 302 0
+[15/Apr/2021 21:14:02] "GET /pins/history/ HTTP/1.1" 200 18474
+[15/Apr/2021 21:14:06] "GET / HTTP/1.1" 200 14729
+[15/Apr/2021 21:14:13] "GET /network/direct/ HTTP/1.1" 200 15120
+[15/Apr/2021 21:14:48] "GET /ads/view/ HTTP/1.1" 200 17322
+[15/Apr/2021 21:14:50] "GET /ads/viewed/ HTTP/1.1" 200 15151
+[15/Apr/2021 21:14:58] "GET /ads/view/ HTTP/1.1" 200 17322
+[15/Apr/2021 21:15:19] "GET /ads/view/ HTTP/1.1" 200 17322
+[15/Apr/2021 21:15:19] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[15/Apr/2021 21:15:19] "GET /media/uploads/ads/5b71e01e-6e87-4b48-b84b-a463a85f35f3.jpg HTTP/1.1" 200 23273
+[15/Apr/2021 21:15:19] "GET /media/uploads/ads/9a154c58-d795-4ae6-a5e7-399850421a8c.jpg HTTP/1.1" 200 81665
+[15/Apr/2021 21:16:26] "GET / HTTP/1.1" 200 14729
+[15/Apr/2021 21:17:26] "GET /admin HTTP/1.1" 301 0
+[15/Apr/2021 21:17:26] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 21:17:27] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[15/Apr/2021 21:17:28] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[15/Apr/2021 21:17:28] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[15/Apr/2021 21:17:29] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[15/Apr/2021 21:17:29] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[15/Apr/2021 21:17:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[15/Apr/2021 21:17:29] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[15/Apr/2021 21:17:29] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[15/Apr/2021 21:18:05] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[15/Apr/2021 21:18:05] "GET /admin/ HTTP/1.1" 200 14781
+[15/Apr/2021 21:18:07] "GET /admin/core/ads/ HTTP/1.1" 200 11769
+[15/Apr/2021 21:18:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:18:11] "GET /admin/core/ads/31/change/ HTTP/1.1" 200 13815
+[15/Apr/2021 21:18:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:20:15] "GET /admin/ HTTP/1.1" 200 14781
+[15/Apr/2021 21:20:17] "GET /admin/core/badge/ HTTP/1.1" 200 11575
+[15/Apr/2021 21:20:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:20:21] "GET /admin/core/ HTTP/1.1" 200 11031
+[15/Apr/2021 21:20:24] "GET /admin/core/documents/ HTTP/1.1" 200 12504
+[15/Apr/2021 21:20:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 21:20:30] "GET /admin/core/ HTTP/1.1" 200 11031
+[15/Apr/2021 21:20:38] "GET /logout/ HTTP/1.1" 302 0
+[15/Apr/2021 21:20:38] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 21:20:38] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:20:38] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:20:38] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:20:39] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:20:39] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:20:39] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:20:39] "GET /media/walstate-login-page.jpg HTTP/1.1" 304 0
+[15/Apr/2021 21:20:43] "GET / HTTP/1.1" 200 14731
+[15/Apr/2021 21:20:43] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 21:20:47] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2021 21:20:47] "GET / HTTP/1.1" 200 14747
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+core.Ads: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Badge: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Documents: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Income: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.MemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialDeposit: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialWithdraw: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Pack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Rank: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Role: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.ShareBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TeamEarning: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TotalAmounts: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransactionHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransferBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.User: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserAdsView: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserMemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPin: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 20 issues (0 silenced).
+April 15, 2021 - 21:20:58
+Django version 3.2, using settings 'WALSTATE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[15/Apr/2021 21:21:01] "GET /transaction/share/balance/ HTTP/1.1" 200 15125
+[15/Apr/2021 21:21:01] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:21:02] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:21:02] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 21:21:02] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[15/Apr/2021 21:21:02] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 21:21:02] "GET / HTTP/1.1" 200 14766
+[15/Apr/2021 21:21:03] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:21:03] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:21:03] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:21:03] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15158
+[15/Apr/2021 21:21:03] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:21:03] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 21:21:03] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 21:21:03] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 21:21:03] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[15/Apr/2021 21:21:06] "GET /network/tree/ HTTP/1.1" 200 15200
+[15/Apr/2021 21:21:08] "GET / HTTP/1.1" 200 14747
+[15/Apr/2021 21:21:14] "GET /transaction/share/balance/ HTTP/1.1" 200 15125
+[15/Apr/2021 21:21:16] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15158
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 21:21:16] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[15/Apr/2021 21:21:22] "POST /transaction/share/balance/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:21:22] "GET /transaction/share/balance/ HTTP/1.1" 200 15504
+[15/Apr/2021 21:21:40] "GET / HTTP/1.1" 200 14734
+[15/Apr/2021 21:21:50] "GET /network/tree/ HTTP/1.1" 200 15659
+[15/Apr/2021 21:21:54] "GET /pins/create/ HTTP/1.1" 200 15904
+[15/Apr/2021 21:22:02] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:22:02] "GET /pins/history/ HTTP/1.1" 200 19915
+[15/Apr/2021 21:22:13] "GET /purchase/membership/create/ HTTP/1.1" 200 14369
+[15/Apr/2021 21:22:14] "GET /purchase/pack/ HTTP/1.1" 200 15846
+[15/Apr/2021 21:22:17] "GET /purchase/pack/create/ HTTP/1.1" 200 15602
+[15/Apr/2021 21:22:24] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:22:24] "GET /purchase/pack/ HTTP/1.1" 200 16468
+[15/Apr/2021 21:22:24] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:22:27] "GET / HTTP/1.1" 200 14734
+[15/Apr/2021 21:22:34] "GET /pins/create/ HTTP/1.1" 200 15904
+[15/Apr/2021 21:22:38] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:22:38] "GET /pins/history/ HTTP/1.1" 200 20817
+[15/Apr/2021 21:22:44] "GET /purchase/pack/ HTTP/1.1" 200 16468
+[15/Apr/2021 21:22:45] "GET /purchase/pack/create/ HTTP/1.1" 200 15602
+[15/Apr/2021 21:22:51] "POST /purchase/pack/create/ HTTP/1.1" 200 15740
+[15/Apr/2021 21:22:57] "POST /purchase/pack/create/ HTTP/1.1" 200 15740
+[15/Apr/2021 21:23:03] "POST /purchase/pack/create/ HTTP/1.1" 200 15740
+Internal Server Error: /purchase/pack/create/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/edit.py", line 172, in post
+    return super().post(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/Walstate/WALSTATE/purchases/forms.py", line 76, in clean
+    if cleaned_data.get("quantity") < 1 or cleaned_data.get("quantity") > 50:
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+[15/Apr/2021 21:23:18] "POST /purchase/pack/create/ HTTP/1.1" 500 100487
+[15/Apr/2021 21:23:39] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[15/Apr/2021 21:23:40] "GET /purchase/pack/ HTTP/1.1" 200 17091
+[15/Apr/2021 21:23:40] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:23:40] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 21:23:40] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 21:23:40] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 21:23:43] "GET / HTTP/1.1" 200 14734
+[15/Apr/2021 21:24:11] "GET / HTTP/1.1" 200 14734
+[15/Apr/2021 22:01:00] "GET / HTTP/1.1" 200 14765
+[15/Apr/2021 22:01:00] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 22:01:00] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 22:01:01] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 22:01:01] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 22:01:01] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 22:01:01] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 22:01:01] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 22:01:01] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[15/Apr/2021 22:01:06] "GET /pins/create/ HTTP/1.1" 200 15917
+[15/Apr/2021 22:01:10] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 22:01:10] "GET /pins/history/ HTTP/1.1" 200 23885
+[15/Apr/2021 22:01:23] "GET / HTTP/1.1" 200 14763
+[15/Apr/2021 22:01:31] "GET /purchase/membership/create/ HTTP/1.1" 200 14382
+[15/Apr/2021 22:01:34] "GET /purchase/pack/ HTTP/1.1" 200 17716
+[15/Apr/2021 22:01:35] "GET /purchase/pack/create/ HTTP/1.1" 200 15615
+[15/Apr/2021 22:01:48] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[15/Apr/2021 22:01:48] "GET /purchase/pack/ HTTP/1.1" 200 18339
+[15/Apr/2021 22:02:04] "GET /purchase/pack/create/ HTTP/1.1" 200 15615
+[15/Apr/2021 22:02:15] "POST /purchase/pack/create/ HTTP/1.1" 200 15755
+[15/Apr/2021 22:02:22] "GET / HTTP/1.1" 200 14763
+[15/Apr/2021 22:02:32] "GET /pins/create/ HTTP/1.1" 200 15917
+[15/Apr/2021 22:02:36] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 22:02:37] "GET /pins/history/ HTTP/1.1" 200 24787
+[15/Apr/2021 22:02:43] "GET / HTTP/1.1" 200 14775
+[15/Apr/2021 22:02:59] "GET /purchase/pack/ HTTP/1.1" 200 18339
+[15/Apr/2021 22:03:01] "GET /purchase/pack/create/ HTTP/1.1" 200 15615
+[15/Apr/2021 22:03:15] "POST /purchase/pack/create/ HTTP/1.1" 200 15752
+[15/Apr/2021 22:03:23] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[15/Apr/2021 22:03:23] "GET /purchase/pack/ HTTP/1.1" 200 18962
+[15/Apr/2021 22:03:36] "GET / HTTP/1.1" 200 14775
+[15/Apr/2021 22:03:46] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15379
+[15/Apr/2021 22:03:56] "GET / HTTP/1.1" 200 14775
+[15/Apr/2021 22:04:04] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15379
+[15/Apr/2021 22:04:15] "POST /transaction/transfer/balance/ HTTP/1.1" 302 0
+[15/Apr/2021 22:04:16] "GET /transaction/transfer/balance/history/ HTTP/1.1" 200 17008
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 22:04:16] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[15/Apr/2021 22:04:27] "GET / HTTP/1.1" 200 14764
+[15/Apr/2021 22:04:37,759] - Broken pipe from ('59.103.97.95', 61616)
+
+[15/Apr/2021 22:04:37,764] - Broken pipe from ('59.103.97.95', 61834)
+
+[15/Apr/2021 22:05:19] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15379
+[15/Apr/2021 22:05:28] "POST /transaction/transfer/balance/ HTTP/1.1" 302 0
+[15/Apr/2021 22:05:29] "GET /transaction/transfer/balance/history/ HTTP/1.1" 200 17306
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 22:05:29] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[15/Apr/2021 22:05:33] "GET / HTTP/1.1" 200 14764
+[15/Apr/2021 22:05:48] "GET /network/tree/ HTTP/1.1" 200 15200
+[15/Apr/2021 22:05:56] "GET /network/direct/ HTTP/1.1" 200 16732
+[15/Apr/2021 22:06:13] "GET /exchanger/5/ HTTP/1.1" 200 14827
+[15/Apr/2021 22:06:18] "POST /exchanger/5/ HTTP/1.1" 200 14937
+[15/Apr/2021 22:06:22] "GET /pins/create/ HTTP/1.1" 200 15917
+[15/Apr/2021 22:06:25] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 22:06:25] "GET /pins/history/ HTTP/1.1" 200 25689
+[15/Apr/2021 22:06:31] "GET /exchanger/5/ HTTP/1.1" 200 14827
+[15/Apr/2021 22:06:35] "POST /exchanger/5/ HTTP/1.1" 200 14964
+[15/Apr/2021 22:06:43] "GET /exchanger/5/ HTTP/1.1" 200 14827
+[15/Apr/2021 22:06:50] "GET /pins/create/ HTTP/1.1" 200 15917
+[15/Apr/2021 22:06:51] "GET /pins/history/ HTTP/1.1" 200 25689
+[15/Apr/2021 22:06:57] "GET /exchanger/5/ HTTP/1.1" 200 14827
+[15/Apr/2021 22:07:00] "POST /exchanger/5/ HTTP/1.1" 200 14964
+[15/Apr/2021 22:07:09] "GET / HTTP/1.1" 200 14763
+[15/Apr/2021 22:07:26,783] - Broken pipe from ('59.103.97.95', 61876)
+
+[15/Apr/2021 22:17:06] "GET /transaction/ HTTP/1.1" 200 22726
+[15/Apr/2021 22:17:07] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[15/Apr/2021 22:17:07] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 22:18:27] "GET /ads/view/ HTTP/1.1" 200 17337
+[15/Apr/2021 22:18:28] "GET /media/uploads/ads/5b71e01e-6e87-4b48-b84b-a463a85f35f3.jpg HTTP/1.1" 200 23273
+[15/Apr/2021 22:18:28] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[15/Apr/2021 22:18:28] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 22:18:28] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[15/Apr/2021 22:18:28] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[15/Apr/2021 22:18:28] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[15/Apr/2021 22:18:28] "GET /media/uploads/ads/9a154c58-d795-4ae6-a5e7-399850421a8c.jpg HTTP/1.1" 200 81665
+[15/Apr/2021 22:18:29] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[15/Apr/2021 22:18:58] "GET /pins/create/ HTTP/1.1" 200 15917
+[15/Apr/2021 22:19:01] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 22:19:02] "GET /pins/history/ HTTP/1.1" 200 27320
+[15/Apr/2021 22:19:02] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 22:19:03] "GET /pins/history/ HTTP/1.1" 200 28951
+[15/Apr/2021 22:19:10] "GET /pins/refund/20/ HTTP/1.1" 200 1044
+20
+not used
+11 not used
+29.25 0.75
+[15/Apr/2021 22:19:11] "POST /pins/refund/20/ HTTP/1.1" 302 0
+[15/Apr/2021 22:19:12] "GET /pins/history/ HTTP/1.1" 200 29144
+20
+not used
+11 not used
+29.25 0.75
+[15/Apr/2021 22:19:12] "POST /pins/refund/20/ HTTP/1.1" 302 0
+[15/Apr/2021 22:19:13] "GET /pins/history/ HTTP/1.1" 200 28440
+[15/Apr/2021 22:19:26] "GET /exchanger/5/ HTTP/1.1" 200 14827
+[15/Apr/2021 22:19:29] "POST /exchanger/5/ HTTP/1.1" 302 0
+[15/Apr/2021 22:19:30] "GET / HTTP/1.1" 200 14775
+[15/Apr/2021 22:19:36] "GET /exchanger/5/ HTTP/1.1" 200 14108
+[15/Apr/2021 22:19:46] "GET / HTTP/1.1" 200 14775
+[15/Apr/2021 22:19:59,783] - Broken pipe from ('59.103.97.95', 62560)
+
+[15/Apr/2021 22:24:11] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 22:24:11] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[15/Apr/2021 22:24:11] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[15/Apr/2021 22:24:12] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[15/Apr/2021 22:24:31] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[15/Apr/2021 22:24:32] "GET /admin/ HTTP/1.1" 200 14781
+[15/Apr/2021 22:34:50] "GET / HTTP/1.1" 200 14748
+[15/Apr/2021 22:34:50] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[15/Apr/2021 22:35:05] "GET /logout/ HTTP/1.1" 302 0
+[15/Apr/2021 22:35:06] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 22:35:06] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 304 0
+[15/Apr/2021 22:35:06] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[15/Apr/2021 22:35:06] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 304 0
+[15/Apr/2021 22:35:06] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[15/Apr/2021 22:35:09] "GET /signup/ HTTP/1.1" 200 8189
+[15/Apr/2021 22:35:26,765] - Broken pipe from ('59.103.97.95', 64440)
+
+[15/Apr/2021 22:35:26,768] - Broken pipe from ('59.103.97.95', 64473)
+
+[15/Apr/2021 22:35:26,768] - Broken pipe from ('59.103.97.95', 64441)
+
+[15/Apr/2021 22:35:26,768] - Broken pipe from ('59.103.97.95', 64474)
+
+[15/Apr/2021 22:35:53] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 22:35:54] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 22:36:04] "GET /signup/ HTTP/1.1" 200 8189
+[15/Apr/2021 22:37:14] "POST /signup/ HTTP/1.1" 200 8527
+69095981
+1
+[15/Apr/2021 22:38:02] "POST /signup/ HTTP/1.1" 200 8463
+[15/Apr/2021 22:38:03] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[15/Apr/2021 22:38:03] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+69095981
+1
+69095981
+1
+[15/Apr/2021 22:38:32] "POST /signup/ HTTP/1.1" 200 8605
+[15/Apr/2021 22:38:33] "POST /signup/ HTTP/1.1" 302 0
+69095981
+1
+[15/Apr/2021 22:39:22] "POST /signup/ HTTP/1.1" 302 0
+[15/Apr/2021 22:39:23] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 22:39:39] "POST /login/ HTTP/1.1" 200 5828
+[15/Apr/2021 22:39:47] "POST /login/ HTTP/1.1" 200 5826
+[15/Apr/2021 22:39:58] "POST /login/ HTTP/1.1" 200 5828
+[15/Apr/2021 22:40:06] "POST /login/ HTTP/1.1" 200 5668
+[15/Apr/2021 22:40:06] "POST /login/ HTTP/1.1" 200 5668
+[15/Apr/2021 22:40:10,129] - Broken pipe from ('59.103.97.95', 64683)
+
+[15/Apr/2021 22:40:24] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 22:40:24] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[15/Apr/2021 22:40:25] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[15/Apr/2021 22:40:25] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[15/Apr/2021 22:40:28,527] - Broken pipe from ('59.103.97.95', 64706)
+
+[15/Apr/2021 22:40:28,527] - Broken pipe from ('59.103.97.95', 64705)
+
+[15/Apr/2021 22:40:28,527] - Broken pipe from ('59.103.97.95', 64707)
+
+[15/Apr/2021 22:40:32] "GET /admin/ HTTP/1.1" 302 0
+[15/Apr/2021 22:40:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[15/Apr/2021 22:40:39] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[15/Apr/2021 22:40:39] "GET /admin/ HTTP/1.1" 200 14781
+[15/Apr/2021 22:40:46,714] - Broken pipe from ('59.103.97.95', 64708)
+
+[15/Apr/2021 22:40:46,720] - Broken pipe from ('59.103.97.95', 64709)
+
+[15/Apr/2021 22:41:06] "GET /admin/core/user/ HTTP/1.1" 200 16437
+[15/Apr/2021 22:41:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 22:41:17] "GET /admin/core/user/19/change/ HTTP/1.1" 200 22378
+[15/Apr/2021 22:41:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[15/Apr/2021 23:12:11] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 23:12:12] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:12:12] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 23:12:12] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:12:13] "GET /login/?next=%2F HTTP/1.1" 200 5457
+[15/Apr/2021 23:12:13] "GET /login/?next=%2F HTTP/1.1" 200 5457
+[15/Apr/2021 23:13:04] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 23:13:04] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:13:05] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[15/Apr/2021 23:13:05] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[15/Apr/2021 23:13:05] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[15/Apr/2021 23:13:05] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[15/Apr/2021 23:13:05] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[15/Apr/2021 23:13:05] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[15/Apr/2021 23:13:20,779] - Broken pipe from ('59.103.109.28', 32909)
+
+[15/Apr/2021 23:13:20,780] - Broken pipe from ('59.103.109.28', 32908)
+
+[15/Apr/2021 23:13:20,783] - Broken pipe from ('59.103.109.28', 32914)
+
+[15/Apr/2021 23:13:20,784] - Broken pipe from ('59.103.109.28', 32919)
+
+[15/Apr/2021 23:16:06] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 23:16:06] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:16:22] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 23:16:23] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:16:24,816] - Broken pipe from ('59.103.109.28', 33265)
+
+[15/Apr/2021 23:16:24,817] - Broken pipe from ('59.103.109.28', 33266)
+
+[15/Apr/2021 23:16:54] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 23:16:54] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:17:07] "POST /login/?next=/ HTTP/1.1" 200 5848
+[15/Apr/2021 23:17:24] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 23:17:25] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:17:26,374] - Broken pipe from ('59.103.109.28', 33272)
+
+[15/Apr/2021 23:17:35] "POST /login/?next=/ HTTP/1.1" 200 5848
+[15/Apr/2021 23:17:45] "POST /login/?next=/ HTTP/1.1" 302 0
+[15/Apr/2021 23:17:45] "GET / HTTP/1.1" 200 14775
+[15/Apr/2021 23:17:46] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[15/Apr/2021 23:17:46] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[15/Apr/2021 23:17:46] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 200 7139
+[15/Apr/2021 23:17:46] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[15/Apr/2021 23:17:46] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[15/Apr/2021 23:17:47] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+[15/Apr/2021 23:18:08] "GET /pins/create/ HTTP/1.1" 200 15917
+[15/Apr/2021 23:18:12] "POST /pins/create/ HTTP/1.1" 302 0
+[15/Apr/2021 23:18:13] "GET /pins/history/ HTTP/1.1" 200 28394
+[15/Apr/2021 23:18:25] "GET /pins/refund/22/ HTTP/1.1" 200 1044
+22
+not used
+11 not used
+19.5 0.5
+[15/Apr/2021 23:18:28] "POST /pins/refund/22/ HTTP/1.1" 302 0
+[15/Apr/2021 23:18:28] "GET /pins/history/ HTTP/1.1" 200 28587
+22
+not used
+11 not used
+19.5 0.5
+[15/Apr/2021 23:18:29] "POST /pins/refund/22/ HTTP/1.1" 302 0
+[15/Apr/2021 23:18:29] "GET /pins/history/ HTTP/1.1" 200 27883
+[15/Apr/2021 23:18:37] "GET /transaction/ HTTP/1.1" 200 22726
+[15/Apr/2021 23:19:15] "GET /user/edit/5/ HTTP/1.1" 200 18799
+[15/Apr/2021 23:19:42] "GET /network/tree/ HTTP/1.1" 200 15518
+[15/Apr/2021 23:20:33] "GET /exchanger/5/ HTTP/1.1" 200 14108
+[15/Apr/2021 23:20:57,417] - Broken pipe from ('59.103.109.28', 33334)
+
+[15/Apr/2021 23:51:19] "GET / HTTP/1.1" 302 0
+[15/Apr/2021 23:51:20] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:51:21] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[15/Apr/2021 23:51:21] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[15/Apr/2021 23:51:22] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[15/Apr/2021 23:51:22] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[15/Apr/2021 23:51:22] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[15/Apr/2021 23:51:22] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[15/Apr/2021 23:51:23] "GET /media/walstate-login-page.jpg HTTP/1.1" 200 37872
+Not Found: /favicon.ico
+[15/Apr/2021 23:51:26] "GET /favicon.ico HTTP/1.1" 404 4440
+[15/Apr/2021 23:51:27] "GET /signup/ HTTP/1.1" 200 8189
+[15/Apr/2021 23:51:27] "GET /media/walstate-create-acc.jpg HTTP/1.1" 200 46238
+[15/Apr/2021 23:51:35] "GET /login/?next=/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:52:08] "GET /signup/ HTTP/1.1" 200 8189
+69095981
+1
+[15/Apr/2021 23:54:24] "POST /signup/ HTTP/1.1" 302 0
+[15/Apr/2021 23:54:24] "GET /login/ HTTP/1.1" 200 5457
+[15/Apr/2021 23:54:37] "POST /login/ HTTP/1.1" 302 0
+[15/Apr/2021 23:54:38] "GET / HTTP/1.1" 200 14720
+[15/Apr/2021 23:54:38] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[15/Apr/2021 23:54:41] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[15/Apr/2021 23:54:41] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[15/Apr/2021 23:54:41] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[15/Apr/2021 23:54:42] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+[15/Apr/2021 23:54:53] "GET /referral/20/ HTTP/1.1" 200 14743
+[15/Apr/2021 23:55:01] "GET /network/tree/ HTTP/1.1" 200 14202
+[15/Apr/2021 23:55:05] "GET /network/direct/ HTTP/1.1" 200 15113
+[15/Apr/2021 23:55:09] "GET /ads/view/ HTTP/1.1" 200 17315
+[15/Apr/2021 23:55:10] "GET /media/uploads/ads/5b71e01e-6e87-4b48-b84b-a463a85f35f3.jpg HTTP/1.1" 200 23273
+[15/Apr/2021 23:55:10] "GET /media/uploads/ads/9a154c58-d795-4ae6-a5e7-399850421a8c.jpg HTTP/1.1" 200 81665
+Not Found: /favicon.ico
+[15/Apr/2021 23:55:24] "GET /favicon.ico HTTP/1.1" 404 4440
+[15/Apr/2021 23:57:13] "GET /transaction/deposit/ HTTP/1.1" 200 15656
+[15/Apr/2021 23:57:55] "GET /transaction/withdraw/ HTTP/1.1" 200 14188
+[15/Apr/2021 23:58:02] "GET /transaction/share/balance/ HTTP/1.1" 200 15124
+[15/Apr/2021 23:58:04] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15157
+Not Found: /transaction/media/walstate-png-logo.png
+[15/Apr/2021 23:58:04] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[15/Apr/2021 23:58:31] "GET / HTTP/1.1" 200 14720
+[15/Apr/2021 23:59:17] "GET /user/edit/20/ HTTP/1.1" 200 18264
+[15/Apr/2021 23:59:24] "GET /logout/ HTTP/1.1" 302 0
+[15/Apr/2021 23:59:24] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 00:00:29] "POST /login/ HTTP/1.1" 200 5832
+[16/Apr/2021 00:00:44] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 00:00:45] "GET / HTTP/1.1" 200 14734
+[16/Apr/2021 00:00:55] "GET /transaction/share/balance/ HTTP/1.1" 200 15516
+[16/Apr/2021 00:00:58] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15166
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 00:00:58] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 00:01:11] "POST /transaction/share/balance/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:01:12] "GET /transaction/share/balance/ HTTP/1.1" 200 15894
+[16/Apr/2021 00:01:30] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 00:01:31] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 00:01:40] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 00:01:40] "GET / HTTP/1.1" 200 14723
+[16/Apr/2021 00:02:00] "GET /pins/create/ HTTP/1.1" 200 15895
+[16/Apr/2021 00:02:06] "POST /pins/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:02:07] "GET /pins/history/ HTTP/1.1" 200 17180
+[16/Apr/2021 00:02:19] "GET /purchase/pack/ HTTP/1.1" 200 15216
+[16/Apr/2021 00:02:23] "GET /purchase/pack/create/ HTTP/1.1" 200 15593
+[16/Apr/2021 00:02:26] "GET /purchase/membership/create/ HTTP/1.1" 200 15234
+[16/Apr/2021 00:02:35] "POST /purchase/membership/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:02:36] "GET /purchase/membership/create/ HTTP/1.1" 200 14361
+[16/Apr/2021 00:02:58] "GET / HTTP/1.1" 200 14725
+[16/Apr/2021 00:03:51] "GET /purchase/pack/ HTTP/1.1" 200 15216
+[16/Apr/2021 00:03:53] "GET /purchase/pack/create/ HTTP/1.1" 200 15593
+[16/Apr/2021 00:03:56] "GET /pins/create/ HTTP/1.1" 200 15895
+[16/Apr/2021 00:04:00] "POST /pins/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:04:00] "GET /pins/history/ HTTP/1.1" 200 18083
+[16/Apr/2021 00:04:10] "GET /purchase/pack/ HTTP/1.1" 200 15216
+[16/Apr/2021 00:04:12] "GET /purchase/pack/create/ HTTP/1.1" 200 15593
+[16/Apr/2021 00:04:23] "POST /purchase/pack/create/ HTTP/1.1" 200 15731
+[16/Apr/2021 00:04:29] "POST /purchase/pack/create/ HTTP/1.1" 200 15731
+[16/Apr/2021 00:04:33] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:04:34] "GET /purchase/pack/ HTTP/1.1" 200 15840
+[16/Apr/2021 00:04:49] "GET / HTTP/1.1" 200 14726
+[16/Apr/2021 00:05:27] "GET /transaction/ HTTP/1.1" 200 16576
+[16/Apr/2021 00:06:00] "GET /purchase/pack/ HTTP/1.1" 200 15840
+[16/Apr/2021 00:06:10] "GET /purchase/pack/create/ HTTP/1.1" 200 15593
+[16/Apr/2021 00:06:15] "GET / HTTP/1.1" 200 14726
+[16/Apr/2021 00:06:24] "GET /pins/create/ HTTP/1.1" 200 15895
+[16/Apr/2021 00:06:33] "POST /pins/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:06:33] "GET /pins/history/ HTTP/1.1" 200 18986
+[16/Apr/2021 00:06:47] "GET /transaction/ HTTP/1.1" 200 17324
+[16/Apr/2021 00:06:53] "GET /pins/create/ HTTP/1.1" 200 15895
+[16/Apr/2021 00:06:55] "GET /pins/history/ HTTP/1.1" 200 18986
+[16/Apr/2021 00:06:57] "GET /pins/refund/25/ HTTP/1.1" 200 1046
+[16/Apr/2021 00:07:39] "GET / HTTP/1.1" 200 14726
+[16/Apr/2021 00:07:44] "GET /transaction/share/balance/ HTTP/1.1" 200 15124
+[16/Apr/2021 00:07:46] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15157
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 00:07:46] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 00:07:53] "GET /transaction/withdraw/ HTTP/1.1" 200 14188
+[16/Apr/2021 00:08:04] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15357
+[16/Apr/2021 00:08:15] "POST /transaction/transfer/balance/ HTTP/1.1" 200 15489
+[16/Apr/2021 00:08:25] "GET /transaction/share/balance/ HTTP/1.1" 200 15124
+[16/Apr/2021 00:08:27] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15157
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 00:08:27] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 00:08:35] "GET / HTTP/1.1" 200 14726
+[16/Apr/2021 00:08:40] "GET /transaction/share/balance/ HTTP/1.1" 200 15124
+[16/Apr/2021 00:08:41] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15157
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 00:08:41] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 00:08:49] "POST /transaction/share/balance/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:08:49] "GET /transaction/share/balance/ HTTP/1.1" 200 15502
+[16/Apr/2021 00:09:10] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15157
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 00:09:10] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 00:09:21] "GET /user/edit/20/ HTTP/1.1" 200 18264
+[16/Apr/2021 00:09:24] "GET /verification/ HTTP/1.1" 200 15343
+[16/Apr/2021 00:09:39] "POST /verification/ HTTP/1.1" 302 0
+[16/Apr/2021 00:09:39] "GET /verification/ HTTP/1.1" 200 14327
+[16/Apr/2021 00:10:05] "GET /admin HTTP/1.1" 301 0
+[16/Apr/2021 00:10:05] "GET /admin/ HTTP/1.1" 302 0
+[16/Apr/2021 00:10:06] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[16/Apr/2021 00:10:07] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[16/Apr/2021 00:10:07] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[16/Apr/2021 00:10:07] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[16/Apr/2021 00:10:07] "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[16/Apr/2021 00:10:07] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[16/Apr/2021 00:10:07] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[16/Apr/2021 00:10:08] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+Not Found: /favicon.ico
+[16/Apr/2021 00:10:08] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 00:10:09] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[16/Apr/2021 00:10:17] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[16/Apr/2021 00:10:18] "GET /admin/ HTTP/1.1" 200 14781
+[16/Apr/2021 00:10:18] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[16/Apr/2021 00:10:18] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[16/Apr/2021 00:10:18] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[16/Apr/2021 00:10:18] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[16/Apr/2021 00:10:18] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[16/Apr/2021 00:10:23] "GET /admin/core/documents/ HTTP/1.1" 200 12728
+[16/Apr/2021 00:10:23] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[16/Apr/2021 00:10:23] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[16/Apr/2021 00:10:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 00:10:23] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[16/Apr/2021 00:10:23] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[16/Apr/2021 00:10:23] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[16/Apr/2021 00:10:23] "GET /static/admin/js/actions.js HTTP/1.1" 200 6540
+[16/Apr/2021 00:10:23] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[16/Apr/2021 00:10:24] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[16/Apr/2021 00:10:24] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[16/Apr/2021 00:10:24] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[16/Apr/2021 00:10:26] "GET /admin/core/documents/10/change/ HTTP/1.1" 200 14924
+[16/Apr/2021 00:10:26] "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[16/Apr/2021 00:10:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 00:10:27] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[16/Apr/2021 00:10:27] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[16/Apr/2021 00:10:27] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[16/Apr/2021 00:10:30] "GET /media/uploads/document/a56442b3-4b48-4153-8271-5641650386fc.png HTTP/1.1" 200 1865
+[16/Apr/2021 00:11:14] "GET /admin/ HTTP/1.1" 200 14781
+[16/Apr/2021 00:11:19] "GET /admin/core/documents/ HTTP/1.1" 200 12728
+[16/Apr/2021 00:11:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 00:11:20] "GET /admin/core/documents/10/change/ HTTP/1.1" 200 14924
+[16/Apr/2021 00:11:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 00:11:25] "POST /admin/core/documents/10/change/ HTTP/1.1" 302 0
+[16/Apr/2021 00:11:25] "GET /admin/core/documents/ HTTP/1.1" 200 12948
+[16/Apr/2021 00:11:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 00:11:26] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[16/Apr/2021 00:11:29] "GET /verification/ HTTP/1.1" 200 14323
+[16/Apr/2021 00:11:36] "GET /transaction/withdraw/ HTTP/1.1" 200 15311
+[16/Apr/2021 00:11:48] "GET / HTTP/1.1" 200 14726
+[16/Apr/2021 00:13:13] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 00:13:14] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 00:13:37] "POST /login/ HTTP/1.1" 200 5832
+[16/Apr/2021 00:13:42] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 00:13:42] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 00:13:50] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 00:13:50] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 00:14:30] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 00:14:30] "GET / HTTP/1.1" 200 14776
+[16/Apr/2021 00:14:31] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 200 7139
+[16/Apr/2021 00:14:41] "GET /network/direct/ HTTP/1.1" 200 18317
+[16/Apr/2021 00:14:59] "GET /network/tree/ HTTP/1.1" 200 15679
+[16/Apr/2021 00:15:19] "GET / HTTP/1.1" 200 14776
+[16/Apr/2021 00:15:22] "GET /transaction/ HTTP/1.1" 200 22726
+[16/Apr/2021 00:15:46] "GET / HTTP/1.1" 200 14776
+[16/Apr/2021 00:15:55] "GET /network/direct/ HTTP/1.1" 200 18317
+[16/Apr/2021 00:16:17] "GET /referral/5/ HTTP/1.1" 200 14764
+[16/Apr/2021 00:16:28] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15379
+[16/Apr/2021 00:16:31] "GET / HTTP/1.1" 200 14776
+[16/Apr/2021 00:16:47] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15379
+[16/Apr/2021 00:16:57] "GET / HTTP/1.1" 200 14776
+[16/Apr/2021 00:17:08] "GET / HTTP/1.1" 200 14776
+[16/Apr/2021 00:17:13] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15379
+[16/Apr/2021 00:17:25] "POST /transaction/transfer/balance/ HTTP/1.1" 302 0
+[16/Apr/2021 00:17:25] "GET /transaction/transfer/balance/history/ HTTP/1.1" 200 17603
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 00:17:25] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 00:17:45] "GET / HTTP/1.1" 200 14775
+[16/Apr/2021 00:18:31] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15379
+[16/Apr/2021 00:18:37] "POST /transaction/transfer/balance/ HTTP/1.1" 302 0
+[16/Apr/2021 00:18:37] "GET /transaction/transfer/balance/history/ HTTP/1.1" 200 17901
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 00:18:38] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 00:18:41] "GET / HTTP/1.1" 200 14775
+[16/Apr/2021 00:19:58] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 00:19:59] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 00:19:59] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[16/Apr/2021 00:19:59] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[16/Apr/2021 00:19:59] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[16/Apr/2021 00:19:59] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[16/Apr/2021 00:19:59] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 304 0
+[16/Apr/2021 00:19:59] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 304 0
+[16/Apr/2021 00:20:00] "GET /media/walstate-login-page.jpg HTTP/1.1" 304 0
+[16/Apr/2021 00:20:11] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 00:20:11] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 00:20:16] "GET /referral/17/ HTTP/1.1" 200 14752
+[16/Apr/2021 00:20:23] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 00:20:23] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 00:20:25] "GET /signup/ HTTP/1.1" 200 8189
+[16/Apr/2021 00:20:25] "GET /media/walstate-create-acc.jpg HTTP/1.1" 304 0
+656779899
+1
+[16/Apr/2021 00:21:29] "POST /signup/ HTTP/1.1" 302 0
+[16/Apr/2021 00:21:30] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 00:21:41] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 00:21:41] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 00:21:41] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[16/Apr/2021 00:21:44] "GET /transaction/transfer/balance/ HTTP/1.1" 200 15366
+[16/Apr/2021 00:21:49] "GET /transaction/share/balance/ HTTP/1.1" 200 15894
+[16/Apr/2021 00:21:51] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15166
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 00:21:52] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 00:22:00] "POST /transaction/share/balance/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:22:00] "GET /transaction/share/balance/ HTTP/1.1" 200 16271
+[16/Apr/2021 00:22:05] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 00:22:05] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 00:22:12] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 00:22:12] "GET / HTTP/1.1" 200 14724
+[16/Apr/2021 00:22:25] "GET /pins/create/ HTTP/1.1" 200 15896
+[16/Apr/2021 00:22:29] "POST /pins/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:22:30] "GET /pins/history/ HTTP/1.1" 200 17182
+[16/Apr/2021 00:22:43] "GET /purchase/pack/ HTTP/1.1" 200 15217
+[16/Apr/2021 00:22:44] "GET /purchase/pack/create/ HTTP/1.1" 200 15594
+[16/Apr/2021 00:22:51] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[16/Apr/2021 00:22:52] "GET /purchase/pack/ HTTP/1.1" 200 15841
+[16/Apr/2021 00:22:54] "GET / HTTP/1.1" 200 14725
+[16/Apr/2021 00:23:03] "GET /user/edit/21/ HTTP/1.1" 200 18273
+[16/Apr/2021 00:23:09] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 00:23:09] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 00:23:17] "POST /login/ HTTP/1.1" 200 5832
+[16/Apr/2021 00:23:23] "POST /login/ HTTP/1.1" 200 5832
+[16/Apr/2021 00:23:27] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 00:23:28] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 00:23:28] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[16/Apr/2021 00:23:28] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[16/Apr/2021 00:23:28] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[16/Apr/2021 00:23:52] "GET /transaction/ HTTP/1.1" 200 21831
+[16/Apr/2021 00:24:38] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 00:24:38] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[16/Apr/2021 03:10:22,836] - Broken pipe from ('74.120.14.38', 53754)
+
+[16/Apr/2021 03:10:23] "GET / HTTP/1.1" 302 0
+[16/Apr/2021 03:10:24,049] - Broken pipe from ('74.120.14.38', 56308)
+
+[16/Apr/2021 03:10:24] "GET / HTTP/1.1" 302 0
+[16/Apr/2021 03:10:24] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 03:57:13] "GET / HTTP/1.1" 302 0
+Not Found: /_ignition/execute-solution
+[16/Apr/2021 04:10:30] "POST /_ignition/execute-solution HTTP/1.1" 404 4486
+[16/Apr/2021 05:10:12] "GET / HTTP/1.1" 302 0
+[16/Apr/2021 05:23:38] code 400, message Bad request version ('À\x14À')
+[16/Apr/2021 05:23:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2021 05:25:57] "GET / HTTP/1.0" 302 0
+[16/Apr/2021 10:28:35] "GET /login/?next=/ HTTP/1.1" 200 5457
+[16/Apr/2021 10:28:36] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[16/Apr/2021 10:28:36] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 304 0
+[16/Apr/2021 10:28:36] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 304 0
+[16/Apr/2021 10:28:36] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[16/Apr/2021 10:28:36] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[16/Apr/2021 10:28:36] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[16/Apr/2021 10:28:50] "POST /login/?next=/ HTTP/1.1" 302 0
+[16/Apr/2021 10:28:51] "GET / HTTP/1.1" 200 14775
+[16/Apr/2021 10:28:51] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[16/Apr/2021 10:28:51] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[16/Apr/2021 10:28:51] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[16/Apr/2021 10:28:51] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[16/Apr/2021 10:28:51] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[16/Apr/2021 10:28:51] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[16/Apr/2021 10:29:20] "GET /transaction/ HTTP/1.1" 200 22726
+[16/Apr/2021 10:30:08] "GET /transaction/?page=2 HTTP/1.1" 200 23041
+[16/Apr/2021 10:30:40] "GET / HTTP/1.1" 200 14775
+[16/Apr/2021 10:30:56] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 10:30:56] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 10:31:28,082] - Broken pipe from ('59.103.97.95', 64279)
+
+[16/Apr/2021 11:13:13] "GET / HTTP/1.1" 302 0
+[16/Apr/2021 11:14:48] "GET /admin/ HTTP/1.1" 302 0
+[16/Apr/2021 11:14:48] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[16/Apr/2021 11:14:48] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[16/Apr/2021 11:14:49] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[16/Apr/2021 11:14:49] "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[16/Apr/2021 11:14:49] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[16/Apr/2021 11:14:49] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[16/Apr/2021 11:14:49] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[16/Apr/2021 11:14:49] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[16/Apr/2021 11:14:49] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[16/Apr/2021 11:14:49] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 11:14:59] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[16/Apr/2021 11:14:59] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 11:15:00] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[16/Apr/2021 11:15:00] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[16/Apr/2021 11:15:00] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[16/Apr/2021 11:15:00] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+Not Found: /favicon.ico
+[16/Apr/2021 11:15:00] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 11:15:52] "GET / HTTP/1.1" 302 0
+[16/Apr/2021 11:15:52] "GET /login/?next=/ HTTP/1.1" 200 5457
+[16/Apr/2021 11:15:52] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[16/Apr/2021 11:15:52] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[16/Apr/2021 11:15:52] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[16/Apr/2021 11:15:52] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[16/Apr/2021 11:15:52] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[16/Apr/2021 11:15:53] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[16/Apr/2021 11:15:53] "GET /media/walstate-login-page.jpg HTTP/1.1" 200 37872
+Not Found: /favicon.ico
+[16/Apr/2021 11:15:54] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 11:16:05] "POST /login/?next=/ HTTP/1.1" 302 0
+[16/Apr/2021 11:16:06] "GET / HTTP/1.1" 200 14775
+[16/Apr/2021 11:16:06] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[16/Apr/2021 11:16:06] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[16/Apr/2021 11:16:06] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[16/Apr/2021 11:16:07] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[16/Apr/2021 11:16:07] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 200 7139
+[16/Apr/2021 11:16:07] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+[16/Apr/2021 11:16:18] "GET /network/tree/ HTTP/1.1" 200 15839
+[16/Apr/2021 11:28:02] "GET /admin/core/totalamounts/ HTTP/1.1" 200 14647
+[16/Apr/2021 11:28:03] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[16/Apr/2021 11:28:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 11:28:03] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[16/Apr/2021 11:28:03] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[16/Apr/2021 11:28:03] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[16/Apr/2021 11:28:03] "GET /static/admin/js/actions.js HTTP/1.1" 200 6540
+[16/Apr/2021 11:28:03] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[16/Apr/2021 11:28:03] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[16/Apr/2021 11:28:03] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[16/Apr/2021 11:28:04] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[16/Apr/2021 11:28:04] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[16/Apr/2021 11:28:06] "GET /admin/core/totalamounts/24/change/ HTTP/1.1" 200 14563
+[16/Apr/2021 11:28:06] "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[16/Apr/2021 11:28:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 11:28:06] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[16/Apr/2021 11:28:06] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[16/Apr/2021 11:28:07] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[16/Apr/2021 11:28:10] "GET /admin/core/totalamounts/ HTTP/1.1" 200 14647
+[16/Apr/2021 11:28:15] "GET /admin/core/totalamounts/17/change/ HTTP/1.1" 200 14559
+[16/Apr/2021 11:28:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 11:28:21] "GET /admin/core/totalamounts/ HTTP/1.1" 200 14647
+[16/Apr/2021 12:04:19] "GET /admin/ HTTP/1.1" 302 0
+[16/Apr/2021 12:04:19] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[16/Apr/2021 12:04:20] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Apr/2021 12:04:20] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Apr/2021 12:04:20,697] - Broken pipe from ('59.103.97.95', 64177)
+
+[16/Apr/2021 12:04:20,700] - Broken pipe from ('59.103.97.95', 64185)
+
+[16/Apr/2021 12:04:20,700] - Broken pipe from ('59.103.97.95', 64178)
+
+[16/Apr/2021 12:04:24] "GET /admin/ HTTP/1.1" 302 0
+[16/Apr/2021 12:04:25] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[16/Apr/2021 12:04:25] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Apr/2021 12:04:25] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Apr/2021 12:04:38] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[16/Apr/2021 12:04:39] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 12:10:23] "GET /admin/core/income/ HTTP/1.1" 200 10431
+[16/Apr/2021 12:10:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:10:25] "GET /admin/core/income/add/ HTTP/1.1" 200 13701
+[16/Apr/2021 12:10:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:10:33] "GET /admin/core/membership/ HTTP/1.1" 200 11621
+[16/Apr/2021 12:10:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:10:38] "GET /admin/core/membership/2/change/ HTTP/1.1" 200 12370
+[16/Apr/2021 12:10:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:10:43] "GET /admin/core/membership/2/history/ HTTP/1.1" 200 9837
+[16/Apr/2021 12:10:55] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 12:11:00] "GET /admin/core/rank/ HTTP/1.1" 200 11564
+[16/Apr/2021 12:11:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:11:02] "GET /admin/core/rank/1/change/ HTTP/1.1" 200 12356
+[16/Apr/2021 12:11:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:11:10] "GET /admin/core/rank/add/ HTTP/1.1" 200 12044
+[16/Apr/2021 12:11:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:11:12] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 12:11:20] "GET /admin/core/sharebalancehistory/ HTTP/1.1" 200 13190
+[16/Apr/2021 12:11:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:11:25] "GET /admin/core/sharebalancehistory/7/change/ HTTP/1.1" 200 14853
+[16/Apr/2021 12:11:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:11:53] "GET /admin/core/user/20/change/?_to_field=id&_popup=1 HTTP/1.1" 200 13965
+[16/Apr/2021 12:11:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:12:22] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 12:12:32] "GET /admin/core/transferbalancehistory/ HTTP/1.1" 200 14006
+[16/Apr/2021 12:12:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:12:44,472] - Broken pipe from ('59.103.97.95', 64758)
+
+[16/Apr/2021 12:12:44,475] - Broken pipe from ('59.103.97.95', 64725)
+
+[16/Apr/2021 12:22:44] "GET /admin/core/totalamounts/23/change/ HTTP/1.1" 200 14565
+[16/Apr/2021 12:22:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:23:11] "GET / HTTP/1.1" 200 14746
+[16/Apr/2021 12:23:11] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[16/Apr/2021 12:23:11] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[16/Apr/2021 12:23:11] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[16/Apr/2021 12:23:11] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[16/Apr/2021 12:23:12] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[16/Apr/2021 12:23:12] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[16/Apr/2021 12:23:13] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+[16/Apr/2021 12:23:29] "GET /referral/1/ HTTP/1.1" 200 14743
+[16/Apr/2021 12:23:32] "GET /network/tree/ HTTP/1.1" 200 16298
+[16/Apr/2021 12:23:33] "GET / HTTP/1.1" 302 0
+[16/Apr/2021 12:23:33] "GET /login/?next=/ HTTP/1.1" 200 5457
+[16/Apr/2021 12:23:34] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[16/Apr/2021 12:23:34] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[16/Apr/2021 12:23:34] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[16/Apr/2021 12:23:34] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[16/Apr/2021 12:23:34] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[16/Apr/2021 12:23:34] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[16/Apr/2021 12:23:34] "GET /media/walstate-login-page.jpg HTTP/1.1" 200 37872
+Not Found: /favicon.ico
+[16/Apr/2021 12:23:35] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 12:25:19] "GET /admin/core/totalamounts/ HTTP/1.1" 200 14647
+[16/Apr/2021 12:25:24] "GET /admin/core/user/ HTTP/1.1" 200 17010
+[16/Apr/2021 12:25:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:25:25] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[16/Apr/2021 12:25:29] "GET /admin/core/user/17/change/ HTTP/1.1" 200 22441
+[16/Apr/2021 12:25:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:25:30] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[16/Apr/2021 12:25:30] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[16/Apr/2021 12:25:30] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[16/Apr/2021 12:25:31] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[16/Apr/2021 12:25:31] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[16/Apr/2021 12:26:17] "GET /admin/core/user/ HTTP/1.1" 200 17010
+[16/Apr/2021 12:26:22] "GET /admin/core/user/11/change/ HTTP/1.1" 200 22404
+[16/Apr/2021 12:26:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 12:26:58] "GET / HTTP/1.1" 200 14746
+[16/Apr/2021 12:27:05] "GET /pins/create/ HTTP/1.1" 200 15896
+[16/Apr/2021 12:27:08] "GET /purchase/membership/create/ HTTP/1.1" 200 15235
+Not Found: /favicon.ico
+[16/Apr/2021 12:27:09] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 12:27:13] "GET /ads/view/ HTTP/1.1" 200 17316
+[16/Apr/2021 12:27:14] "GET /media/uploads/ads/9a154c58-d795-4ae6-a5e7-399850421a8c.jpg HTTP/1.1" 200 81665
+[16/Apr/2021 12:27:14] "GET /media/uploads/ads/5b71e01e-6e87-4b48-b84b-a463a85f35f3.jpg HTTP/1.1" 200 23273
+[16/Apr/2021 12:27:18] "GET /ads/viewed/ HTTP/1.1" 200 15145
+Not Found: /favicon.ico
+[16/Apr/2021 12:27:18] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 12:27:24] "GET /ads/view/ HTTP/1.1" 200 17316
+[16/Apr/2021 12:27:28] "GET /ads/view/ HTTP/1.1" 200 17316
+[16/Apr/2021 12:27:28] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[16/Apr/2021 12:27:28] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[16/Apr/2021 12:27:29] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[16/Apr/2021 12:27:29] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[16/Apr/2021 12:27:29] "GET /media/uploads/ads/5b71e01e-6e87-4b48-b84b-a463a85f35f3.jpg HTTP/1.1" 200 23273
+[16/Apr/2021 12:27:29] "GET /media/uploads/ads/9a154c58-d795-4ae6-a5e7-399850421a8c.jpg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[16/Apr/2021 12:27:29] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 12:28:17] "GET /ads/view/ HTTP/1.1" 302 0
+[16/Apr/2021 12:28:18] "GET /login/?next=/ads/view/ HTTP/1.1" 200 5457
+[16/Apr/2021 12:28:18] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[16/Apr/2021 12:28:18] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[16/Apr/2021 12:28:18] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[16/Apr/2021 12:28:18] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[16/Apr/2021 12:28:18] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 200 1272
+[16/Apr/2021 12:28:18] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 200 169326
+[16/Apr/2021 12:28:19] "GET /media/walstate-login-page.jpg HTTP/1.1" 200 37872
+Not Found: /favicon.ico
+[16/Apr/2021 12:28:19] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 12:29:15] "POST /login/?next=/ads/view/ HTTP/1.1" 200 5826
+[16/Apr/2021 12:29:20] "POST /login/?next=/ads/view/ HTTP/1.1" 302 0
+[16/Apr/2021 12:29:21] "GET /ads/view/ HTTP/1.1" 200 17321
+[16/Apr/2021 12:29:21] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[16/Apr/2021 12:29:21] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[16/Apr/2021 12:29:21] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[16/Apr/2021 12:29:22] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+[16/Apr/2021 12:29:22] "GET /media/uploads/ads/5b71e01e-6e87-4b48-b84b-a463a85f35f3.jpg HTTP/1.1" 200 23273
+[16/Apr/2021 12:29:22] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[16/Apr/2021 12:29:22] "GET /media/uploads/ads/9a154c58-d795-4ae6-a5e7-399850421a8c.jpg HTTP/1.1" 200 81665
+[16/Apr/2021 12:29:25] "GET /media/uploads/ads/5b71e01e-6e87-4b48-b84b-a463a85f35f3.mp4 HTTP/1.1" 200 6355069
+Not Found: /favicon.ico
+[16/Apr/2021 12:29:27] "GET /favicon.ico HTTP/1.1" 404 4440
+[16/Apr/2021 12:30:27] "POST /ads/update/status/ HTTP/1.1" 200 14
+[16/Apr/2021 12:30:30] "GET /ads/viewed/ HTTP/1.1" 200 15874
+[16/Apr/2021 12:30:39] "GET /purchase/pack/ HTTP/1.1" 200 17082
+[16/Apr/2021 12:30:46] "GET /transaction/withdraw/ HTTP/1.1" 200 14194
+[16/Apr/2021 12:30:51] "GET /user/edit/11/ HTTP/1.1" 200 18263
+[16/Apr/2021 12:30:58] "GET /verification/ HTTP/1.1" 200 15349
+[16/Apr/2021 12:32:14] "GET /network/tree/ HTTP/1.1" 200 14206
+[16/Apr/2021 12:32:56] "GET /transaction/ HTTP/1.1" 200 15088
+[16/Apr/2021 12:33:01] "GET /pins/create/ HTTP/1.1" 200 15901
+[16/Apr/2021 12:33:10] "GET /transaction/withdraw/ HTTP/1.1" 200 14194
+[16/Apr/2021 12:33:12] "GET /transaction/deposit/ HTTP/1.1" 200 15662
+[16/Apr/2021 13:51:50] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03,Dã~\x9böAB;U\x8aÑ\x9ceN8g\x8e`'îO!«!\x14\x88ÞHxZZ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+[16/Apr/2021 13:51:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Apr/2021 15:31:40] "GET /login/?next=/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:31:40] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[16/Apr/2021 15:31:40] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:31:41] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:31:41] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[16/Apr/2021 15:31:41] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:31:41] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:32:20] "POST /login/?next=/ HTTP/1.1" 302 0
+[16/Apr/2021 15:32:20] "GET / HTTP/1.1" 200 14726
+[16/Apr/2021 15:32:21] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[16/Apr/2021 15:32:21] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:32:21] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[16/Apr/2021 15:32:21] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:32:21] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[16/Apr/2021 15:32:31] "GET /pins/create/ HTTP/1.1" 200 15895
+[16/Apr/2021 15:32:36] "POST /pins/create/ HTTP/1.1" 302 0
+[16/Apr/2021 15:32:36] "GET /pins/history/ HTTP/1.1" 200 20618
+[16/Apr/2021 15:32:41] "GET /purchase/pack/ HTTP/1.1" 200 15840
+[16/Apr/2021 15:32:43] "GET /purchase/pack/create/ HTTP/1.1" 200 15593
+[16/Apr/2021 15:32:52] "POST /purchase/pack/create/ HTTP/1.1" 200 15809
+[16/Apr/2021 15:32:56] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[16/Apr/2021 15:32:56] "GET /purchase/pack/ HTTP/1.1" 200 16463
+[16/Apr/2021 15:33:26] "GET / HTTP/1.1" 200 14736
+[16/Apr/2021 15:33:38] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 15:33:38] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:34:04] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 15:34:04] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 15:34:17] "GET /transaction/ HTTP/1.1" 200 21831
+[16/Apr/2021 15:34:27] "GET /network/tree/ HTTP/1.1" 200 14372
+[16/Apr/2021 15:34:41] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 15:34:42] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:35:05] "POST /login/ HTTP/1.1" 200 5828
+[16/Apr/2021 15:35:23] "GET /password/reset/ HTTP/1.1" 200 4104
+[16/Apr/2021 15:35:31,540] - Broken pipe from ('43.245.10.27', 46688)
+
+[16/Apr/2021 15:35:42] "GET /admin/ HTTP/1.1" 302 0
+[16/Apr/2021 15:35:42] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[16/Apr/2021 15:35:43] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Apr/2021 15:35:44] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Apr/2021 15:35:52] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[16/Apr/2021 15:35:53] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 15:36:01] "GET /admin/core/user/ HTTP/1.1" 200 17010
+[16/Apr/2021 15:36:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 15:36:12] "GET /admin/core/user/21/change/ HTTP/1.1" 200 22412
+[16/Apr/2021 15:36:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 15:36:52] "GET /admin/core/user/17/change/ HTTP/1.1" 200 22441
+[16/Apr/2021 15:36:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 15:37:05] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 15:37:06] "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[16/Apr/2021 15:37:07] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 15:37:12] "GET /login/?next=/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:37:14] "GET /signup/ HTTP/1.1" 200 8189
+[16/Apr/2021 15:37:26,661] - Broken pipe from ('43.245.10.27', 13053)
+
+656779899
+1
+[16/Apr/2021 15:38:24] "POST /signup/ HTTP/1.1" 302 0
+[16/Apr/2021 15:38:24] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:39:22] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 15:39:23] "GET / HTTP/1.1" 200 14736
+[16/Apr/2021 15:39:27] "GET /transaction/share/balance/ HTTP/1.1" 200 15502
+[16/Apr/2021 15:39:29] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15157
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 15:39:29] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 15:39:39] "POST /transaction/share/balance/create/ HTTP/1.1" 302 0
+[16/Apr/2021 15:39:40] "GET /transaction/share/balance/ HTTP/1.1" 200 15880
+[16/Apr/2021 15:39:47] "GET /transaction/share/balance/ HTTP/1.1" 302 0
+[16/Apr/2021 15:39:48] "GET /login/?next=/transaction/share/balance/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:39:48] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 58939
+[16/Apr/2021 15:39:49] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 81090
+[16/Apr/2021 15:39:49] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+[16/Apr/2021 15:39:49] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 200 89478
+[16/Apr/2021 15:39:50] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 15:39:50] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:40:04] "POST /login/ HTTP/1.1" 200 5832
+[16/Apr/2021 15:40:20] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 15:40:20] "GET / HTTP/1.1" 200 14724
+[16/Apr/2021 15:40:26] "GET /pins/create/ HTTP/1.1" 200 15896
+[16/Apr/2021 15:40:32] "POST /pins/create/ HTTP/1.1" 302 0
+[16/Apr/2021 15:40:33] "GET /pins/history/ HTTP/1.1" 200 17181
+[16/Apr/2021 15:40:39] "GET /purchase/pack/ HTTP/1.1" 200 15217
+[16/Apr/2021 15:40:41] "GET /purchase/pack/create/ HTTP/1.1" 200 15594
+[16/Apr/2021 15:40:48] "POST /purchase/pack/create/ HTTP/1.1" 200 15810
+[16/Apr/2021 15:40:52] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[16/Apr/2021 15:40:53] "GET /purchase/pack/ HTTP/1.1" 200 15840
+[16/Apr/2021 15:40:55] "GET / HTTP/1.1" 200 14725
+[16/Apr/2021 15:41:02] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 15:41:03] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:41:15] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 15:41:15] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 15:41:23] "GET /network/direct/ HTTP/1.1" 200 16182
+[16/Apr/2021 15:42:23] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 15:44:13] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 15:56:30] "GET / HTTP/1.1" 200 14775
+[16/Apr/2021 15:56:30] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[16/Apr/2021 15:56:31] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:56:31] "GET /media/uploads/user/d1216100-75d6-43c6-804a-3be65348f8c6.jpg HTTP/1.1" 304 0
+[16/Apr/2021 15:56:31] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[16/Apr/2021 15:56:31] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[16/Apr/2021 15:56:31] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:56:31] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[16/Apr/2021 15:56:31] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[16/Apr/2021 15:56:41] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 15:56:41] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:56:41] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:56:41] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:56:41] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:56:41] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[16/Apr/2021 15:56:45] "GET /signup/ HTTP/1.1" 200 8189
+[16/Apr/2021 15:56:52] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 15:56:52] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:57:11] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 15:57:12] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 15:57:18] "GET /referral/17/ HTTP/1.1" 200 14752
+[16/Apr/2021 15:57:36,971] - Broken pipe from ('59.103.109.28', 32312)
+
+[16/Apr/2021 15:58:28] "GET / HTTP/1.1" 200 14745
+Internal Server Error: /signup/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/edit.py", line 172, in post
+    return super().post(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/Walstate/WALSTATE/user/forms.py", line 33, in clean
+    obj = User.objects.filter(personal_id=cleaned_data['referal']).first()
+KeyError: 'referal'
+[16/Apr/2021 15:58:33] "POST /signup/ HTTP/1.1" 500 98520
+Internal Server Error: /signup/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/edit.py", line 172, in post
+    return super().post(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/Walstate/WALSTATE/user/forms.py", line 33, in clean
+    obj = User.objects.filter(personal_id=cleaned_data['referal']).first()
+KeyError: 'referal'
+[16/Apr/2021 15:59:14] "POST /signup/ HTTP/1.1" 500 98502
+[16/Apr/2021 15:59:42] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 15:59:43] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 15:59:47] "GET /signup/ HTTP/1.1" 200 8189
+Internal Server Error: /signup/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/edit.py", line 172, in post
+    return super().post(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 170, in errors
+    self.full_clean()
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 373, in full_clean
+    self._clean_form()
+  File "/usr/local/lib/python3.8/dist-packages/django/forms/forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/Walstate/WALSTATE/user/forms.py", line 33, in clean
+    obj = User.objects.filter(personal_id=cleaned_data['referal']).first()
+KeyError: 'referal'
+[16/Apr/2021 15:59:50] "POST /signup/ HTTP/1.1" 500 97747
+[16/Apr/2021 16:00:18] "POST /login/ HTTP/1.1" 200 5832
+[16/Apr/2021 16:00:42] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 16:00:42] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 16:00:47] "GET /referral/17/ HTTP/1.1" 200 14752
+[16/Apr/2021 16:01:08] "GET /network/tree/ HTTP/1.1" 200 14534
+[16/Apr/2021 16:01:08] "GET /network/tree/ HTTP/1.1" 200 14534
+[16/Apr/2021 16:01:10] "POST /signup/ HTTP/1.1" 200 8640
+[16/Apr/2021 16:01:13] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 16:01:35] "GET /user/edit/17/ HTTP/1.1" 200 18327
+656779899
+1
+[16/Apr/2021 16:01:36] "POST /signup/ HTTP/1.1" 200 8474
+[16/Apr/2021 16:01:51] "GET /verification/ HTTP/1.1" 200 14332
+[16/Apr/2021 16:01:57] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 16:02:01] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 16:02:03] "GET / HTTP/1.1" 200 14745
+656779899
+1
+[16/Apr/2021 16:02:04] "POST /signup/ HTTP/1.1" 200 8474
+[16/Apr/2021 16:02:04] "GET / HTTP/1.1" 200 14745
+656779899
+1
+[16/Apr/2021 16:02:38] "POST /signup/ HTTP/1.1" 302 0
+[16/Apr/2021 16:02:38] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 16:02:40] "GET /ads/view/ HTTP/1.1" 200 17324
+[16/Apr/2021 16:02:44] "GET /media/uploads/ads/5b71e01e-6e87-4b48-b84b-a463a85f35f3.jpg HTTP/1.1" 304 0
+[16/Apr/2021 16:02:44] "GET /media/uploads/ads/9a154c58-d795-4ae6-a5e7-399850421a8c.jpg HTTP/1.1" 304 0
+[16/Apr/2021 16:02:57] "POST /login/ HTTP/1.1" 200 5830
+[16/Apr/2021 16:03:03] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 16:03:16] "POST /login/ HTTP/1.1" 200 5830
+[16/Apr/2021 16:03:18,661] - Broken pipe from ('59.103.109.28', 32712)
+
+[16/Apr/2021 16:03:18,666] - Broken pipe from ('59.103.109.28', 32713)
+
+[16/Apr/2021 16:03:55] "GET /admin/ HTTP/1.1" 302 0
+[16/Apr/2021 16:03:55] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2382
+[16/Apr/2021 16:04:04] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[16/Apr/2021 16:04:04] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 16:04:12] "GET /admin/core/user/ HTTP/1.1" 200 17594
+[16/Apr/2021 16:04:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 16:04:32] "POST /login/ HTTP/1.1" 200 5830
+[16/Apr/2021 16:04:39] "POST /login/ HTTP/1.1" 200 5830
+[16/Apr/2021 16:04:46] "GET /admin/core/user/23/change/ HTTP/1.1" 200 22384
+[16/Apr/2021 16:04:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 16:05:12] "POST /login/ HTTP/1.1" 200 5830
+[16/Apr/2021 16:05:23] "POST /login/ HTTP/1.1" 200 5830
+[16/Apr/2021 16:05:45] "POST /login/ HTTP/1.1" 302 0
+[16/Apr/2021 16:05:45] "GET / HTTP/1.1" 200 14724
+[16/Apr/2021 16:05:50] "GET /admin/core/user/23/history/ HTTP/1.1" 200 9347
+[16/Apr/2021 16:06:02] "GET /login/?next=/ HTTP/1.1" 200 5457
+[16/Apr/2021 16:06:15,751] - Broken pipe from ('59.103.109.28', 33168)
+
+[16/Apr/2021 16:06:21] "POST /login/?next=/ HTTP/1.1" 302 0
+[16/Apr/2021 16:06:22] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 16:06:26] "GET /transaction/share/balance/ HTTP/1.1" 200 16271
+[16/Apr/2021 16:06:28] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15166
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 16:06:29] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 16:06:37] "GET /transaction/withdraw/ HTTP/1.1" 200 14192
+[16/Apr/2021 16:06:51] "GET / HTTP/1.1" 200 14724
+[16/Apr/2021 16:06:54] "GET / HTTP/1.1" 200 14745
+[16/Apr/2021 16:06:59] "GET /transaction/share/balance/ HTTP/1.1" 200 16271
+[16/Apr/2021 16:07:01] "GET /transaction/share/balance/create/ HTTP/1.1" 200 15166
+Not Found: /transaction/media/walstate-png-logo.png
+[16/Apr/2021 16:07:01] "GET /transaction/media/walstate-png-logo.png HTTP/1.1" 404 6494
+[16/Apr/2021 16:07:09] "POST /transaction/share/balance/create/ HTTP/1.1" 302 0
+[16/Apr/2021 16:07:10] "GET /transaction/share/balance/ HTTP/1.1" 200 16648
+[16/Apr/2021 16:07:15] "GET / HTTP/1.1" 200 14727
+[16/Apr/2021 16:07:21] "GET / HTTP/1.1" 200 14744
+[16/Apr/2021 16:07:32,051] - Broken pipe from ('59.103.109.28', 33228)
+
+[16/Apr/2021 16:07:32,052] - Broken pipe from ('59.103.109.28', 33187)
+
+[16/Apr/2021 16:07:55] "GET /pins/create/ HTTP/1.1" 200 15899
+[16/Apr/2021 16:08:04] "POST /pins/create/ HTTP/1.1" 302 0
+[16/Apr/2021 16:08:04] "GET /pins/history/ HTTP/1.1" 200 17184
+[16/Apr/2021 16:08:25] "GET /purchase/pack/ HTTP/1.1" 200 15220
+[16/Apr/2021 16:08:38] "GET /purchase/pack/create/ HTTP/1.1" 200 15597
+[16/Apr/2021 16:09:04] "POST /purchase/pack/create/ HTTP/1.1" 200 15735
+[16/Apr/2021 16:09:10] "POST /purchase/pack/create/ HTTP/1.1" 200 15734
+[16/Apr/2021 16:09:14] "POST /purchase/pack/create/ HTTP/1.1" 302 0
+[16/Apr/2021 16:09:14] "GET /purchase/pack/ HTTP/1.1" 200 15843
+[16/Apr/2021 16:09:30] "GET / HTTP/1.1" 200 14728
+[16/Apr/2021 17:28:43,174] - Broken pipe from ('74.120.14.54', 40934)
+
+[16/Apr/2021 17:28:44] "GET / HTTP/1.1" 302 0
+[16/Apr/2021 17:28:44,573] - Broken pipe from ('74.120.14.54', 36292)
+
+[16/Apr/2021 17:28:44] "GET / HTTP/1.1" 302 0
+[16/Apr/2021 17:28:46] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 19:45:17] "GET / HTTP/1.1" 200 14744
+[16/Apr/2021 19:45:18] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[16/Apr/2021 19:45:18] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[16/Apr/2021 19:45:18] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[16/Apr/2021 19:45:18] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[16/Apr/2021 19:45:18] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[16/Apr/2021 19:45:18] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[16/Apr/2021 19:45:19] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[16/Apr/2021 19:45:25] "GET / HTTP/1.1" 200 14744
+[16/Apr/2021 19:45:32] "GET /transaction/ HTTP/1.1" 200 22733
+[16/Apr/2021 19:45:43] "GET / HTTP/1.1" 200 14744
+[16/Apr/2021 19:45:49] "GET / HTTP/1.1" 200 14744
+[16/Apr/2021 19:45:51,582] - Broken pipe from ('59.103.97.95', 63639)
+
+[16/Apr/2021 21:12:19] "GET / HTTP/1.1" 302 0
+[16/Apr/2021 21:12:20] "GET /login/?next=/ HTTP/1.1" 200 5457
+[16/Apr/2021 22:13:34] "GET / HTTP/1.1" 200 14744
+[16/Apr/2021 22:13:34] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[16/Apr/2021 22:13:34] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[16/Apr/2021 22:13:34] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[16/Apr/2021 22:13:34] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[16/Apr/2021 22:13:35] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[16/Apr/2021 22:13:35] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[16/Apr/2021 22:13:35] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[16/Apr/2021 22:13:46] "GET /logout/ HTTP/1.1" 302 0
+[16/Apr/2021 22:13:47] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 22:13:47] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 304 0
+[16/Apr/2021 22:13:47] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 304 0
+[16/Apr/2021 22:13:47] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[16/Apr/2021 22:13:47] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[16/Apr/2021 22:13:49,778] - Broken pipe from ('59.103.97.95', 62792)
+
+[16/Apr/2021 22:13:49,779] - Broken pipe from ('59.103.97.95', 62783)
+
+[16/Apr/2021 22:13:49,779] - Broken pipe from ('59.103.97.95', 62793)
+
+[16/Apr/2021 22:13:49,779] - Broken pipe from ('59.103.97.95', 62784)
+
+[16/Apr/2021 22:14:02] "GET /admin/ HTTP/1.1" 302 0
+[16/Apr/2021 22:14:02] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2227
+[16/Apr/2021 22:14:02] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[16/Apr/2021 22:14:03] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[16/Apr/2021 22:14:10] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[16/Apr/2021 22:14:10] "GET /admin/ HTTP/1.1" 200 14840
+[16/Apr/2021 22:14:24] "GET /admin/core/user/ HTTP/1.1" 200 17594
+[16/Apr/2021 22:14:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:14:40] "GET /admin/core/user/23/change/ HTTP/1.1" 200 22420
+[16/Apr/2021 22:14:40] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:14:45] "GET /admin/core/user/23/delete/ HTTP/1.1" 200 11090
+[16/Apr/2021 22:15:06] "POST /admin/core/user/23/delete/ HTTP/1.1" 302 0
+[16/Apr/2021 22:15:06] "GET /admin/core/user/ HTTP/1.1" 200 17453
+[16/Apr/2021 22:15:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:15:30] "GET /admin/core/user/ HTTP/1.1" 200 17299
+[16/Apr/2021 22:15:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:15:36] "GET /admin/ HTTP/1.1" 200 14795
+[16/Apr/2021 22:15:44] "GET /admin/core/totalamounts/ HTTP/1.1" 200 14877
+[16/Apr/2021 22:15:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:15:47] "GET /admin/core/totalamounts/25/change/ HTTP/1.1" 200 14603
+[16/Apr/2021 22:15:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:16:02] "GET /admin/core/totalamounts/25/history/ HTTP/1.1" 200 9423
+[16/Apr/2021 22:16:06] "GET /admin/ HTTP/1.1" 200 14795
+[16/Apr/2021 22:16:10] "GET /admin/core/teamearning/ HTTP/1.1" 200 10471
+[16/Apr/2021 22:16:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:16:19] "GET /admin/core/pack/ HTTP/1.1" 200 11574
+[16/Apr/2021 22:16:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:16:22] "GET /admin/core/pack/1/change/ HTTP/1.1" 200 12942
+[16/Apr/2021 22:16:22] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:16:31] "GET /admin/core/officialwithdraw/ HTTP/1.1" 200 13114
+[16/Apr/2021 22:16:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:16:34] "GET /admin/core/officialwithdraw/1/change/ HTTP/1.1" 200 14199
+[16/Apr/2021 22:16:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:16:51] "GET / HTTP/1.1" 200 14747
+[16/Apr/2021 22:17:02] "GET /admin/core/ads/ HTTP/1.1" 200 11769
+[16/Apr/2021 22:17:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:17:05] "GET /admin/core/ads/add/ HTTP/1.1" 200 12879
+[16/Apr/2021 22:17:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:17:17] "GET /admin/core/income/add/ HTTP/1.1" 200 13741
+[16/Apr/2021 22:17:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:18:20] "GET /admin/core/income/ HTTP/1.1" 200 10431
+[16/Apr/2021 22:18:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:18:41] "GET /admin/core/badge/ HTTP/1.1" 200 11575
+[16/Apr/2021 22:18:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:18:44] "GET /admin/core/badge/1/change/ HTTP/1.1" 200 12568
+[16/Apr/2021 22:18:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:18:54] "GET /media/uploads/badge/473c4479-8cee-4e66-9120-6924af50a6d8.jpg HTTP/1.1" 200 111409
+[16/Apr/2021 22:19:02] "GET /admin/ HTTP/1.1" 200 14795
+[16/Apr/2021 22:19:05] "GET /admin/core/membership/ HTTP/1.1" 200 11621
+[16/Apr/2021 22:19:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:19:19] "GET /admin/core/membership/2/change/ HTTP/1.1" 200 12370
+[16/Apr/2021 22:19:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:19:36] "GET /admin/core/usermembership/ HTTP/1.1" 200 12350
+[16/Apr/2021 22:19:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:19:45] "GET /admin/core/useradsview/ HTTP/1.1" 200 12106
+[16/Apr/2021 22:19:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:19:49] "GET /admin/core/useradsview/1/change/ HTTP/1.1" 200 14176
+[16/Apr/2021 22:19:49] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:19:59] "GET /admin/core/useradsview/1/history/ HTTP/1.1" 200 9414
+[16/Apr/2021 22:20:03] "GET /admin/core/ HTTP/1.1" 200 11031
+[16/Apr/2021 22:20:09] "GET /admin/ HTTP/1.1" 200 14795
+[16/Apr/2021 22:20:14] "GET /admin/auth/group/ HTTP/1.1" 200 10772
+[16/Apr/2021 22:20:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[16/Apr/2021 22:20:22] "GET /admin/logout/ HTTP/1.1" 302 0
+[16/Apr/2021 22:20:23] "GET /login/ HTTP/1.1" 200 5457
+[16/Apr/2021 22:20:25,916] - Broken pipe from ('59.103.97.95', 62995)
+
+[16/Apr/2021 22:20:25,917] - Broken pipe from ('59.103.97.95', 62994)
+
+[17/Apr/2021 00:28:17] "GET / HTTP/1.1" 302 0
+[17/Apr/2021 00:28:17] "GET /login/?next=/ HTTP/1.1" 200 5457
+[17/Apr/2021 00:28:35] "POST /login/?next=/ HTTP/1.1" 200 5832
+[17/Apr/2021 00:29:00] "POST /login/?next=/ HTTP/1.1" 200 5828
+[17/Apr/2021 00:29:13] "POST /login/?next=/ HTTP/1.1" 302 0
+[17/Apr/2021 00:29:13] "GET / HTTP/1.1" 200 14735
+[17/Apr/2021 00:29:32,613] - Broken pipe from ('59.103.97.95', 63825)
+
+Not Found: /_ignition/execute-solution
+[17/Apr/2021 03:59:20] "POST /_ignition/execute-solution HTTP/1.1" 404 4486
+[17/Apr/2021 10:13:16] "GET / HTTP/1.1" 200 14735
+[17/Apr/2021 10:13:16] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[17/Apr/2021 10:13:16] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[17/Apr/2021 10:13:16] "GET /media/walstate-png-logo.png HTTP/1.1" 304 0
+[17/Apr/2021 10:13:16] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[17/Apr/2021 10:13:17] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 304 0
+[17/Apr/2021 10:13:17] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 304 0
+[17/Apr/2021 10:13:17] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[17/Apr/2021 10:13:42] "GET /logout/ HTTP/1.1" 302 0
+[17/Apr/2021 10:13:43] "GET /login/ HTTP/1.1" 200 5457
+[17/Apr/2021 10:13:43] "GET /static/core/js/sb-admin-2.min.js HTTP/1.1" 304 0
+[17/Apr/2021 10:13:43] "GET /static/core/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[17/Apr/2021 10:13:43] "GET /static/core/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 304 0
+[17/Apr/2021 10:13:43] "GET /static/core/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[17/Apr/2021 10:13:46,076] - Broken pipe from ('59.103.97.95', 63087)
+
+[17/Apr/2021 10:13:46,076] - Broken pipe from ('59.103.97.95', 63094)
+
+[17/Apr/2021 10:13:46,078] - Broken pipe from ('59.103.97.95', 63095)
+
+[17/Apr/2021 10:13:46,080] - Broken pipe from ('59.103.97.95', 63086)
+
+[17/Apr/2021 11:00:25] "GET / HTTP/1.1" 200 14747
+[17/Apr/2021 11:00:26] "GET /static/core/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[17/Apr/2021 11:00:26] "GET /static/core/css/sb-admin-2.min.css HTTP/1.1" 304 0
+[17/Apr/2021 11:00:27] "GET /static/assets/js/jquery-3.2.1.min.js HTTP/1.1" 200 86663
+[17/Apr/2021 11:00:28] "GET /static/core/js/jquery.bootstrap.modal.forms.min.js HTTP/1.1" 200 2608
+[17/Apr/2021 11:00:28] "GET /static/core/js/sb-admin-2.js HTTP/1.1" 200 1838
+[17/Apr/2021 11:00:28] "GET /media/walstate-png-logo.png HTTP/1.1" 200 32826
+[17/Apr/2021 11:00:28] "GET /static/core/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 80328
+Not Found: /favicon.ico
+[17/Apr/2021 11:00:30] "GET /favicon.ico HTTP/1.1" 404 4440
+[17/Apr/2021 11:00:31] "GET /user/edit/1/ HTTP/1.1" 200 18178
+/home/Walstate/WALSTATE/WALSTATE/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+core.Ads: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Badge: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Documents: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Income: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.MemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialDeposit: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.OfficialWithdraw: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Pack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Rank: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.Role: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.ShareBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TeamEarning: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TotalAmounts: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransactionHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.TransferBalanceHistory: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.User: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserAdsView: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserMemberShip: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPack: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+core.UserPin: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the CoreConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 20 issues (0 silenced).
+April 17, 2021 - 11:12:21
+Django version 3.2, using settings 'WALSTATE.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.

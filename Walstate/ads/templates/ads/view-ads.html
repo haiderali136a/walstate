@@ -1,0 +1,123 @@
+{% extends 'core/base.html' %}
+{% block content %}
+{% load static %}
+<head>
+    <script>
+
+    window.onload = function () {
+    const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+    console.log(csrftoken);
+    var videos = document.getElementsByTagName("video");
+    for (video of videos){
+    console.log("Hello");
+        if (window.getComputedStyle(video).display === "none") {
+            document.getElementById('adblocker').style.display = 'block';
+            document.getElementById('noadblocker').style.display = 'none';
+            break;
+    }
+    }
+    /* $('.videoModals').each(function(){
+    $(this).on('show.bs.modal', function() {
+    console.log(this);
+    video_id = '#' + this.id.split("videoModal")[1];
+    $(video_id)[0].play();
+    });
+    }); */
+
+    $('video').each(function(){
+    console.log(this);
+        $(this).on('ended', myHandler(csrftoken));
+    });
+};
+    var myHandler = function (csrf) {
+        return function (event) {
+        $('video').each(function(){
+        if (this.ended){
+        // $('#videoModal'+this.id).modal('hide');
+         event.preventDefault();
+
+    data = {
+
+        "ad": this.id
+
+     };
+
+    $.ajax({
+
+        type: "POST",
+
+        headers: {'X-CSRFToken': csrf, 'Content-Type':'application/json; charset=utf-8'},
+
+        url: "/ads/update/status/",
+
+        data: JSON.stringify(data),
+
+        dataType: "json",
+
+        contentType: "application/json",
+
+        success: function(data) {console.log(data)},
+
+        error: function (rs, e) {console.debug(rs)}
+
+    });
+
+        }
+        });
+        };
+        };
+
+    </script>
+</head>
+{% csrf_token %}
+
+<a class="ml-5 btn btn-primary" href="{% url 'viewed-ads-view' %}">Viewed Ads</a>
+<div class="col-lg-7 container" id="adblocker" style="display:none;">
+    <div class="p-10 my-3">
+      <div class="text-center">
+        <div class="container my-3"  style="overflow: auto">
+            <h4 style="text-align: center;">Ads</h4></div>
+      </div>
+      <div class="text-center alert alert-danger">
+
+          <h4 class="text-danger">You must disable adblocker to view the content!</h4></div></div></div>
+<div class="container my-3"  style="overflow: auto" id="noadblocker">
+    <h4 style="text-align: center;">Ads</h4>
+    {% for vid in data %}
+<!--  <button type="button" class="btn btn-md" data-toggle="modal" data-target="#videoModal{{ vid.id }}"><img src="{{ vid.thumbnail.url }}" width="640" height="400"></button>-->
+<!--<div data-toggle="modal" data-target="#videoModal{{ vid.id }}" data-backdrop="static">-->
+<!--    <div class="modal fade videoModals" id="videoModal{{ vid.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+<!--    <div class="modal-dialog">-->
+<!--      <div class="modal-content">-->
+<!--        <div class="modal-body">-->
+          <video id="{{ vid.id }}" width="100%" controls playsinline>
+            <source src="{{ vid.video.url }}" type="video/mp4">
+          </video>
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--</div>-->
+{% endfor %}
+
+
+    <div class="pagination">
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+            <a href="?page=1" class="btn btn-danger">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}" class="btn btn-primary">previous</a>
+            {% endif %}
+
+            <span class="current btn btn-success">
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}" class="btn btn-primary">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}" class="btn btn-danger">last &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+</div>
+{% endblock %}

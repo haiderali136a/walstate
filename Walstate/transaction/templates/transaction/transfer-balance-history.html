@@ -1,0 +1,73 @@
+{% extends 'core/base.html' %} {% block content %}
+<!-- <a class="ml-5 btn btn-primary" href="{% url 'transfer-balance-view' %}"
+  >Transfer Balance History</a
+> -->
+<button id="ask_pin" class="ml-5 bs-modal btn btn-primary ask_pin" type="button" name="button"
+    data-form-url="{% url 'ask-pin' user.id %}">
+    Transfer Balance
+</button>
+
+<div class="container my-3" style="overflow: auto">
+    <h4 style="text-align: center">History</h4>
+    <table class="table table-bordered dataTable" width="100%" cellspacing="0" role="grid"
+        aria-describedby="dataTable_info" style="width: 100%">
+        <thead>
+            <tr role="row">
+                <th>ID</th>
+                <th>Amount</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <article class="media content-section">
+            <div class="media-body">
+                <div class="article-metadata">
+                    <tbody>
+                        {% for item in data %}
+                        <tr>
+                            <td>{{ item.id }}</td>
+                            <td><small class="text-muted">{{ item.amount }}</small></td>
+                            <td><small class="text-muted">{{ item.date }}</small></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </div>
+            </div>
+        </article>
+    </table>
+
+    <div class="pagination">
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+            <a href="?page=1" class="btn btn-danger">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}" class="btn btn-primary">previous</a>
+            {% endif %}
+
+            <span class="current btn btn-success">
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}" class="btn btn-primary">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}" class="btn btn-danger">last &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+</div>
+{% endblock %} {% block model %}
+
+<div class="modal fade" tabindex="-1" role="dialog" id="modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        // Read book buttons
+        $('.ask_pin').each(function () {
+            $(this).modalForm({ formURL: $(this).data('form-url') });
+        });
+    });
+</script>
+
+{% endblock %}

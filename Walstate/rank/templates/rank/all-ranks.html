@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+{% block content %}
+
+<h1 class="text-center mb-5">Ranks</h1>
+<div class="container-fluid text-center">
+
+{% for item in data %}
+    {% if forloop.first %}<div class="row">{% endif %}
+    <div class="card border-success text-white bg-secondary mb-5" style="max-width: 20rem; margin: auto; box-shadow: 0 5px 5px rgba(0,0,0,.5);">
+        <img class="card-img-top" src="{{ item.badge.url }}" alt="{{ item.title }} Badge">
+      <div class="card-body">
+        <h2 class="card-title mb-3">{{ item.title }} Badge</h2>
+          <hr style="border-top: 1px solid black;">
+        <h4 class="card-text">{% if item.id <= user_rank.id %}
+        Achieved
+        {% else %}
+        Not Achieved
+        {% endif %}</h4>
+          <hr style="border-top: 1px solid black;">
+          <h5 class="card-text">Required Sales: {{ item.required_sales }}</h5>
+          <h5 class="card-text">Rewards: {{ item.rewards }}</h5>
+          <h5 class="card-text">Salary: {{ item.salary }}</h5>
+      </div>
+    </div>
+    {% if forloop.counter|divisibleby:5 %}</div><div class="row">{% endif %}
+    {% if forloop.last %}</div>{% endif %}
+{% endfor %}
+
+
+	</div>
+
+{% endblock %}

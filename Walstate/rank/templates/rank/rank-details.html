@@ -1,0 +1,61 @@
+{% extends 'core/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<a class="ml-5 btn btn-primary" href="{% url 'all-ranks-view' %}">Show All Ranks</a>
+
+{% if rank %}
+<div class="col-lg-7 container">
+    <div class="p-10 my-3">
+
+      <div class="text-center alert alert-secondary">
+
+        <h3 class="text-secondary">Rank Title:  {{ rank_title }}</h3>
+        <h4 class="text-secondary">Goal to Achieve: {{ next_rank }}</h4>
+        <h4 class="text-secondary">Required Sales: {{ required_sales }}</h4>
+        <h4 class="text-secondary">Rewards: {{ rewards }}</h4>
+        <h4 class="text-secondary">Salary: {{ salary }}</h4></div>
+
+    </div>
+</div>
+<div class="container my-3"  style="overflow: auto">
+    <h4 style="text-align: center;">Referrals Sales Stats</h4>
+    <table class="table dataTable" width="100%" cellspacing="0" role="grid"
+        aria-describedby="dataTable_info" style="width: 100%;">
+        <thead>
+            <tr role="row">
+                <th>ID</th>
+                <th>Referral</th>
+                <th>Total Sales</th>
+            </tr>
+        </thead>
+        <article class="media content-section">
+            <div class="media-body">
+                <div class="article-metadata">
+                    <tbody>
+                        {% for item in data %}
+                        <tr style="color:white; {% if item.current_target_achieved %}
+                                background-color:#60AF2F;
+                                {% else %}
+                                background-color:#F01818;
+                                 {% endif %}
+                                  ">
+                            <td>{{ item.id }}</td>
+                            <td><small class="text-muted-white">{{ item.referral.full_name }}</small></td>
+                            <td><small class="text-muted-white">{{ item.total_sales }}</small></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </div>
+            </div>
+        </article>
+    </table>
+</div>
+{% else %}
+<div class="col-lg-7 container">
+    <div class="p-10 my-3">
+      <div class="text-center alert alert-danger">
+
+          <h4 class="text-danger">You must have at least 3 direct referrals in order to unlock Rank!</h4></div></div></div>
+{% endif %}
+{% endblock %}

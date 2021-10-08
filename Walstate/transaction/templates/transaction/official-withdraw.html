@@ -1,0 +1,45 @@
+{% extends 'core/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+{% if verified and member %}
+
+<a class="ml-5 btn btn-primary" href="{% url 'official-withdraw-history-view' %}">Official Withdraw History</a>
+
+<div class="col-lg-7 container">
+    <div class="p-10 my-3">
+      <div class="text-center">
+        <h1 class="h4 text-gray-900 mb-4">Official Withdraw</h1>
+      </div>
+      <form class="user" method="POST" novalidate>
+        {% csrf_token %}
+          {{ form|crispy }}
+        <hr>
+        <button type="submit" class="btn btn-primary btn-user btn-block">
+          WIthdraw
+        </button>
+        <a href="#" class="btn btn-danger btn-user btn-block">
+          Cancel
+        </a>
+      </form>
+    </div>
+</div>
+{% elif not verified %}
+<div class="col-lg-7 container">
+    <div class="p-10 my-3">
+      <div class="text-center alert alert-danger">
+
+        <h4 class="text-danger">Documents must be verified to access Withdraw!</h4></div>
+      </div>
+</div>
+{% elif not member %}
+<div class="col-lg-7 container">
+    <div class="p-10 my-3">
+      <div class="text-center alert alert-danger">
+
+        <h4 class="text-danger">Membership is required to access Withdraw!</h4></div>
+      </div>
+</div>
+{% endif %}
+
+{% endblock %}
