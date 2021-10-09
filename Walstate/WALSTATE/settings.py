@@ -25,7 +25,7 @@ SECRET_KEY = '6tq8qc0cu%17yptal*@w$6dv8hud#ih-q=-2d#m&%2=r!k9(9d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['walstate.com', 'www.walstate.com', '167.172.168.112', 'localhost', '127.0.0.1', '*']
+ALLOWED_HOSTS = [ '*']
 
 
 # Application definition
@@ -86,28 +86,6 @@ WSGI_APPLICATION = 'WALSTATE.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # }
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'HOST': 'walstate-database-1.c74lxnq5vvzo.us-east-2.rds.amazonaws.com',
-        'NAME': 'walstate',
-        'USER': 'postgres',
-        'PASSWORD': 'solokingpro',
-    },
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'HOST': 'localhost',
-    #     'NAME': 'walstate',
-    #     'USER': 'postgres',
-    #     'PASSWORD': 'postgres',
-    # }
-}
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
@@ -162,17 +140,3 @@ LOGOUT_URL = 'logout'
 LOGIN_REDIRECT_URL = 'dashboard'
 
 PAGINATE_BY = 10
-
-ADMIN_TRC20_ADDRESS = "TR7o2vGdCaR4QVFuyoNqCKu6RLx9yQXsdD"
-
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
-
-
-APP_HOST = 'localhost'
-#APP_HOST = '167.172.168.112'
-APP_PORT = '8000'
